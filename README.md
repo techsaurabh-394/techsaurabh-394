@@ -16,7 +16,7 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 😂 Random Dev Meme
-<img src='https://search.brave.com/images?q=react+dev+meme&source=web' style="height: 400px;"/>
+<img src='https://programmerhumor.io/javascript-memes/dear-recruiter/' style="height: 400px;"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=techsaurabh-394&icon=0&color=1)](https://visitcount.itsvg.in)
