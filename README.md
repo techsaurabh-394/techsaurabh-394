@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working as a software developer.<br>🌱 I’m currently learning AWS<br>💬 I'm from Varanasi<br>⚡ Fun fact
+🔭 I’m currently working as a software developer.<br>🌱  I'm from Varanasi<br>⚡ Fun fact
 
 
 ## 🌐 Socials:
