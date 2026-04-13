@@ -6,7 +6,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/saurabhpathak394) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/saurabh-pathak-13b7a8209) 
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@saurabhpathak394) 
-[![Portfolio](https://shields.io)](https://mernstackdev.com)
+[![Portfolio]](https://mernstackdev.com)
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Saurabh23272258) 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-F7BA2A?logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/saurabhdev)
 
