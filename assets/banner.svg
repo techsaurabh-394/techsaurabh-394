@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saurabh Dev - AI Engineer and Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#14204a"/><stop offset="1" stop-color="#3b1e6e"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ea8fe"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+      .chip { fill: rgba(255,255,255,0.08); stroke: rgba(255,255,255,0.22); }
+      @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      .o1 { animation: drift 7s ease-in-out infinite; }
+      .o2 { animation: drift 9s ease-in-out infinite reverse; }
+      .o3 { animation: drift 11s ease-in-out infinite; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      .r1 { animation: rise 0.9s ease-out both; }
+      .r2 { animation: rise 0.9s 0.25s ease-out both; }
+      .r3 { animation: rise 0.9s 0.5s ease-out both; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g opacity="0.55">
+    <circle class="o1" cx="1040" cy="70" r="90" fill="#6ea8fe" opacity="0.18"/>
+    <circle class="o2" cx="930" cy="230" r="60" fill="#c084fc" opacity="0.22"/>
+    <circle class="o3" cx="1140" cy="220" r="42" fill="#6ea8fe" opacity="0.25"/>
+  </g>
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M100 0V300M300 0V300M500 0V300M700 0V300M900 0V300M1100 0V300"/>
+  </g>
+  <text class="t r1" x="70" y="118" font-size="60" font-weight="800" fill="#ffffff">Saurabh Dev</text>
+  <rect class="r1" x="72" y="134" width="150" height="5" rx="2.5" fill="url(#ac)"/>
+  <text class="t r2" x="72" y="180" font-size="26" font-weight="600" fill="url(#ac)">AI Engineer  ·  Full-Stack Developer</text>
+  <g class="r3">
+    <rect class="chip" x="72" y="204" width="76" height="34" rx="17"/><text class="t" x="110" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">MCP</text>
+    <rect class="chip" x="158" y="204" width="76" height="34" rx="17"/><text class="t" x="196" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">RAG</text>
+    <rect class="chip" x="244" y="204" width="118" height="34" rx="17"/><text class="t" x="303" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">AI Agents</text>
+    <rect class="chip" x="372" y="204" width="96" height="34" rx="17"/><text class="t" x="420" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">Next.js</text>
+    <rect class="chip" x="478" y="204" width="96" height="34" rx="17"/><text class="t" x="526" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">Node.js</text>
+  </g>
+  <text class="t" x="72" y="274" font-size="14" fill="#8b93a7">Writing for 10K+ developers a month at mernstackdev.com</text>
+</svg>
