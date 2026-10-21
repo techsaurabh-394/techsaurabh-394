@@ -25,7 +25,6 @@ Building with React, Node.js, MCP and RAG — and writing about it for 10K+ deve
 | [rag-docs-chat](https://github.com/techsaurabh-394/rag-docs-chat) | Upload PDFs and ask questions — answers cite the source passage. FastAPI + retrieval eval |
 | [claude-skills](https://github.com/techsaurabh-394/claude-skills) | Reusable Claude Skills for SEO/GEO audits, technical blogging and building MCP servers |
 | [mernstackdev.com](https://mernstackdev.com) | Developer blog: React, Node.js, AI engineering — 10K+ monthly readers |
-| [Mental-Health-analysis](https://github.com/techsaurabh-394/Mental-Health-analysis) | NLP sentiment analysis of tweets for mental-health signals |
 
 ## 💻 Tech stack
 **AI:** ![MCP](https://img.shields.io/badge/MCP-111?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-111?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-111?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
