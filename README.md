@@ -24,10 +24,10 @@ I build **AI-agent tooling and production web apps**, and write about it for 10K
 ## ✍️ Latest from the blog
 <!-- BLOG-POSTS:START -->
 - [Bo2bot: Messaging Built: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>· Aug 11, 2026</sub>
-- [How to Use: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>· Jul 16, 2026</sub>
-- [Using Streams in: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/using-streams-in-node-js/) <sub>· Jul 16, 2026</sub>
-- [Revolutionizing React: The: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>· Jul 16, 2026</sub>
-- [Migrating Your Existing: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/express-applications-to-version-5/) <sub>· Jul 16, 2026</sub>
+- [Why Every LLM Needs a Firewall](https://mernstackdev.com/llm-need-firewall/) <sub>· Jul 16, 2026</sub>
+- [State Space Models: How They Actually Work — From the Math to Mamba](https://mernstackdev.com/state-space-model/) <sub>· Jul 16, 2026</sub>
+- [Hybrid Search: Why BM25 + Vector Embeddings Together Beat Either Alone](https://mernstackdev.com/hybrid-search/) <sub>· Jul 16, 2026</sub>
+- [Transformer Attention: 2026 Guide & Best Practices](https://mernstackdev.com/transformer-attention/) <sub>· Jul 16, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 ## 🔭 Working on
