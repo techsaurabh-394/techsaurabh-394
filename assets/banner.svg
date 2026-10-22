@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saurabh Dev - AI Engineer and Full-Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saurabh Pathak - AI Engineer and Full-Stack Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#14204a"/><stop offset="1" stop-color="#3b1e6e"/>
@@ -28,7 +28,7 @@
   <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
     <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M100 0V300M300 0V300M500 0V300M700 0V300M900 0V300M1100 0V300"/>
   </g>
-  <text class="t r1" x="70" y="118" font-size="60" font-weight="800" fill="#ffffff">Saurabh Dev</text>
+  <text class="t r1" x="70" y="118" font-size="60" font-weight="800" fill="#ffffff">Saurabh Pathak</text>
   <rect class="r1" x="72" y="134" width="150" height="5" rx="2.5" fill="url(#ac)"/>
   <text class="t r2" x="72" y="180" font-size="26" font-weight="600" fill="url(#ac)">AI Engineer  ·  Full-Stack Developer</text>
   <g class="r3">
