@@ -23,7 +23,11 @@ I build **AI-agent tooling and production web apps**, and write about it for 10K
 
 ## ✍️ Latest from the blog
 <!-- BLOG-POSTS:START -->
-- Latest posts appear here automatically ([mernstackdev.com](https://mernstackdev.com))
+- [Bo2bot: Messaging Built: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>· Aug 11, 2026</sub>
+- [How to Use: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>· Jul 16, 2026</sub>
+- [Using Streams in: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/using-streams-in-node-js/) <sub>· Jul 16, 2026</sub>
+- [Revolutionizing React: The: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>· Jul 16, 2026</sub>
+- [Migrating Your Existing: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/express-applications-to-version-5/) <sub>· Jul 16, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 ## 🔭 Working on
