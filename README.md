@@ -151,11 +151,11 @@ const saurabh = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=techsaurabh-394&bg_color=0D1117&color=2DD4BF&line=2DD4BF&point=FBBF24&area=true&area_color=2DD4BF&hide_border=true&title_color=2DD4BF" alt="Commit activity graph" width="100%"/>
+  <img src="https://ghchart.rshah.org/2dd4bf/techsaurabh-394" alt="Contribution chart" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=techsaurabh-394&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=techsaurabh-394&theme=onedark&column=7&margin-w=8&no-frame=true" alt="GitHub trophies"/>
 </p>
 
 <h3 align="center">Star history</h3>
