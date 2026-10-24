@@ -164,9 +164,7 @@ const saurabh = {
   <img src="https://streak-stats.demolab.com?user=techsaurabh-394&hide_border=true&background=0D1117&ring=2DD4BF&fire=FBBF24&currStreakLabel=2DD4BF&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak"/>
 </p>
 
-<p align="center">
-  <img src="https://github-trophies.vercel.app/?username=techsaurabh-394&theme=onedark&column=7&margin-w=8&no-frame=true" alt="GitHub trophies"/>
-</p>
+
 
 <h3 align="center">Star history</h3>
 
