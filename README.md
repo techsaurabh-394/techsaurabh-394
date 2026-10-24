@@ -176,7 +176,7 @@ const saurabh = {
 
 <h2 align="center">Snake game</h2>
 
-<p align="center"><sub>My contribution graph as a Snake game: the amber snake eats every green commit dot, then starts over.</sub></p>
+<p align="center"><sub>My contribution graph as a Snake game: the amber snake eats every green dot, then starts over. Real commits are the brightest dots; the rest is extra food for the game.</sub></p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Snake game eating my contribution graph" width="100%"/>
