@@ -75,28 +75,42 @@ const saurabh = {
 
 <h2 align="center">Tech stack</h2>
 
-<table>
+<table width="100%">
 <tr>
-<td width="22%" valign="middle"><b>AI and agents</b></td>
-<td valign="middle">
-<img src="https://img.shields.io/badge/MCP-161B22?style=flat-square&labelColor=161B22&color=2DD4BF" alt="MCP"/>
-<img src="https://img.shields.io/badge/RAG-161B22?style=flat-square&labelColor=161B22&color=2DD4BF" alt="RAG"/>
-<img src="https://img.shields.io/badge/AI_Agents-161B22?style=flat-square&labelColor=161B22&color=2DD4BF" alt="AI Agents"/>
-<img src="https://img.shields.io/badge/Claude_Skills-161B22?style=flat-square&labelColor=161B22&color=FBBF24" alt="Claude Skills"/>
-<br/><img src="https://skillicons.dev/icons?i=python,fastapi&theme=dark" alt="Python, FastAPI"/>
+<td width="20%" valign="middle"><b>AI and agents</b></td>
+<td width="80%" valign="middle">
+<img src="https://img.shields.io/badge/MCP-161B22?style=for-the-badge&logo=modelcontextprotocol&logoColor=2DD4BF" alt="MCP"/> <img src="https://img.shields.io/badge/RAG-161B22?style=for-the-badge&logo=databricks&logoColor=FBBF24" alt="RAG"/> <img src="https://img.shields.io/badge/AI_Agents-161B22?style=for-the-badge&logo=robotframework&logoColor=2DD4BF" alt="AI_Agents"/> <img src="https://img.shields.io/badge/Claude_Skills-161B22?style=for-the-badge&logo=anthropic&logoColor=FBBF24" alt="Claude_Skills"/> <img src="https://img.shields.io/badge/Claude-161B22?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude"/> <img src="https://img.shields.io/badge/OpenAI-161B22?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/> <img src="https://img.shields.io/badge/LangChain-161B22?style=for-the-badge&logo=langchain&logoColor=2DD4BF" alt="LangChain"/> <img src="https://img.shields.io/badge/Hugging_Face-161B22?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging_Face"/> <img src="https://img.shields.io/badge/Ollama-161B22?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/><br/><br/><img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,tensorflow&theme=dark&perline=12" alt="python,fastapi,pytorch,tensorflow"/>
 </td>
 </tr>
 <tr>
-<td valign="middle"><b>Frontend</b></td>
-<td valign="middle"><img src="https://skillicons.dev/icons?i=ts,react,nextjs&theme=dark" alt="TypeScript, React, Next.js"/></td>
+<td width="20%" valign="middle"><b>Languages</b></td>
+<td width="80%" valign="middle">
+<img src="https://skillicons.dev/icons?i=python,ts,js,bash,html,css&theme=dark&perline=12" alt="python,ts,js,bash,html,css"/>
+</td>
 </tr>
 <tr>
-<td valign="middle"><b>Backend and data</b></td>
-<td valign="middle"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" alt="Node.js, Express, MongoDB"/></td>
+<td width="20%" valign="middle"><b>Frontend</b></td>
+<td width="80%" valign="middle">
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vercel&theme=dark&perline=12" alt="react,nextjs,tailwind,vercel"/>
+</td>
 </tr>
 <tr>
-<td valign="middle"><b>Cloud and DevOps</b></td>
-<td valign="middle"><img src="https://skillicons.dev/icons?i=docker,gcp,azure,githubactions&theme=dark" alt="Docker, Google Cloud, Azure, GitHub Actions"/></td>
+<td width="20%" valign="middle"><b>Backend and data</b></td>
+<td width="80%" valign="middle">
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,graphql,mongodb,mysql,postgres,redis&theme=dark&perline=12" alt="nodejs,express,fastapi,graphql,mongodb,mysql,postgres,redis"/>
+</td>
+</tr>
+<tr>
+<td width="20%" valign="middle"><b>Cloud and DevOps</b></td>
+<td width="80%" valign="middle">
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,azure,aws,githubactions,nginx,linux&theme=dark&perline=12" alt="docker,kubernetes,gcp,azure,aws,githubactions,nginx,linux"/>
+</td>
+</tr>
+<tr>
+<td width="20%" valign="middle"><b>Tools</b></td>
+<td width="80%" valign="middle">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,wordpress&theme=dark&perline=12" alt="git,github,vscode,postman,npm,wordpress"/>
+</td>
 </tr>
 </table>
 
@@ -151,10 +165,6 @@ const saurabh = {
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/2dd4bf/techsaurabh-394" alt="Contribution chart" width="100%"/>
-</p>
-
-<p align="center">
   <img src="https://github-trophies.vercel.app/?username=techsaurabh-394&theme=onedark&column=7&margin-w=8&no-frame=true" alt="GitHub trophies"/>
 </p>
 
@@ -164,8 +174,14 @@ const saurabh = {
   <img src="https://api.star-history.com/svg?repos=techsaurabh-394/ai-engineer-roadmap,techsaurabh-394/mcp-notes-server,techsaurabh-394/rag-docs-chat,techsaurabh-394/claude-skills&type=Date&theme=dark" alt="Star history of my four featured repos" width="80%"/>
 </p>
 
+<h3 align="center">Contribution snake</h3>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Contribution snake eating my commit graph" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Contribution snake eating my commit graph" width="100%"/>
+  </picture>
 </p>
 
 <br/>
