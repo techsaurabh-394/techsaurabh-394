@@ -174,14 +174,12 @@ const saurabh = {
   <img src="https://api.star-history.com/svg?repos=techsaurabh-394/ai-engineer-roadmap,techsaurabh-394/mcp-notes-server,techsaurabh-394/rag-docs-chat,techsaurabh-394/claude-skills&type=Date&theme=dark" alt="Star history of my four featured repos" width="80%"/>
 </p>
 
-<h3 align="center">Contribution snake</h3>
+<h2 align="center">Snake game</h2>
+
+<p align="center"><sub>My contribution graph as a Snake game: the amber snake eats every green commit dot, then starts over.</sub></p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Contribution snake eating my commit graph" width="100%"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Snake game eating my contribution graph" width="100%"/>
 </p>
 
 <br/>

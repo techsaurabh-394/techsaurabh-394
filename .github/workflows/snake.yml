@@ -8,6 +8,7 @@ on:
     branches:
       - main
 
+# contents: write is the minimum needed to push the "output" branch.
 permissions:
   contents: write
 
@@ -16,13 +17,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Build snake from contribution graph
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=fbbf24&color_dots=21262d,0e4f4a,0f766e,14b8a6,5eead4
-            dist/github-snake.svg?color_snake=d97706&color_dots=ebedf0,99f6e4,2dd4bf,0d9488,115e59
+      - uses: actions/checkout@v4
+
+      - name: Install generate-snake-animation (pinned, no install scripts)
+        run: |
+          mkdir -p "$RUNNER_TEMP/snk" && cd "$RUNNER_TEMP/snk"
+          npm init -y >/dev/null
+          npm install --ignore-scripts --no-audit --no-fund --save-exact generate-snake-animation@3.5.0
+          cp "$GITHUB_WORKSPACE/scripts/generate_snake.mjs" .
+
+      - name: Build arcade snake
+        working-directory: ${{ runner.temp }}/snk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SNAKE_USER: ${{ github.repository_owner }}
+          SNAKE_OUT: ${{ github.workspace }}/dist
+        run: node generate_snake.mjs
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
