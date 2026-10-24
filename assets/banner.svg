@@ -1,42 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Saurabh Pathak - AI Engineer and Full-Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Saurabh Pathak, AI Engineer and Full-Stack Developer</title>
+  <desc id="d">Banner with name, role and an animated network of connected agent nodes.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#14204a"/><stop offset="1" stop-color="#3b1e6e"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0f1b24"/>
     </linearGradient>
-    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6ea8fe"/><stop offset="1" stop-color="#c084fc"/>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2dd4bf" fill-opacity="0.10"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#fbbf24"/>
     </linearGradient>
-    <style>
-      .t { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
-      .chip { fill: rgba(255,255,255,0.08); stroke: rgba(255,255,255,0.22); }
-      @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
-      .o1 { animation: drift 7s ease-in-out infinite; }
-      .o2 { animation: drift 9s ease-in-out infinite reverse; }
-      .o3 { animation: drift 11s ease-in-out infinite; }
-      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      .r1 { animation: rise 0.9s ease-out both; }
-      .r2 { animation: rise 0.9s 0.25s ease-out both; }
-      .r3 { animation: rise 0.9s 0.5s ease-out both; }
-    </style>
   </defs>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <g opacity="0.55">
-    <circle class="o1" cx="1040" cy="70" r="90" fill="#6ea8fe" opacity="0.18"/>
-    <circle class="o2" cx="930" cy="230" r="60" fill="#c084fc" opacity="0.22"/>
-    <circle class="o3" cx="1140" cy="220" r="42" fill="#6ea8fe" opacity="0.25"/>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <circle cx="930" cy="170" r="190" fill="url(#glow)"/>
+
+  <!-- network of agent nodes -->
+  <g stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+    <path d="M800 90 L930 60 L1060 110"/>
+    <path d="M800 90 L870 170"/>
+    <path d="M930 60 L870 170"/>
+    <path d="M1060 110 L1000 200"/>
+    <path d="M870 170 L1000 200"/>
+    <path d="M1000 200 L1120 250"/>
+    <path d="M870 170 L790 250"/>
+    <path d="M870 170 L940 270"/>
+    <path d="M1000 200 L940 270"/>
+    <path d="M790 250 L940 270"/>
   </g>
-  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M100 0V300M300 0V300M500 0V300M700 0V300M900 0V300M1100 0V300"/>
+
+  <g fill="#0d1117" stroke="#2dd4bf" stroke-width="2">
+    <circle cx="800" cy="90" r="7"/>
+    <circle cx="930" cy="60" r="9"/>
+    <circle cx="1060" cy="110" r="7"/>
+    <circle cx="1000" cy="200" r="10"/>
+    <circle cx="1120" cy="250" r="7"/>
+    <circle cx="790" cy="250" r="7"/>
+    <circle cx="940" cy="270" r="8"/>
   </g>
-  <text class="t r1" x="70" y="118" font-size="60" font-weight="800" fill="#ffffff">Saurabh Pathak</text>
-  <rect class="r1" x="72" y="134" width="150" height="5" rx="2.5" fill="url(#ac)"/>
-  <text class="t r2" x="72" y="180" font-size="26" font-weight="600" fill="url(#ac)">AI Engineer  ·  Full-Stack Developer</text>
-  <g class="r3">
-    <rect class="chip" x="72" y="204" width="76" height="34" rx="17"/><text class="t" x="110" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">MCP</text>
-    <rect class="chip" x="158" y="204" width="76" height="34" rx="17"/><text class="t" x="196" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">RAG</text>
-    <rect class="chip" x="244" y="204" width="118" height="34" rx="17"/><text class="t" x="303" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">AI Agents</text>
-    <rect class="chip" x="372" y="204" width="96" height="34" rx="17"/><text class="t" x="420" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">Next.js</text>
-    <rect class="chip" x="478" y="204" width="96" height="34" rx="17"/><text class="t" x="526" y="226" font-size="15" fill="#e6e8ee" text-anchor="middle">Node.js</text>
+
+  <!-- central agent node -->
+  <circle cx="870" cy="170" r="14" fill="#2dd4bf"/>
+  <circle cx="870" cy="170" r="14" fill="none" stroke="#2dd4bf" stroke-width="2">
+    <animate attributeName="r" values="14;34" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- request travelling through the graph -->
+  <circle r="5" fill="#fbbf24">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M800 90 L870 170 L1000 200 L1120 250"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#fbbf24">
+    <animateMotion dur="5s" begin="1.5s" repeatCount="indefinite" path="M930 60 L870 170 L790 250"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- text -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="70" y="96" font-size="15" font-weight="600" letter-spacing="4" fill="#2dd4bf">AI ENGINEER  ·  FULL-STACK DEVELOPER
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze"/>
+    </text>
+    <text x="70" y="170" font-size="68" font-weight="700" fill="#e6edf3" letter-spacing="-1">Saurabh Pathak
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.2s" fill="freeze"/>
+    </text>
+    <rect x="72" y="192" width="120" height="4" rx="2" fill="url(#rule)">
+      <animate attributeName="width" from="0" to="120" dur="0.9s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <text x="70" y="238" font-size="22" fill="#9da7b3">I build AI-agent tooling and production web apps.
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.6s" fill="freeze"/>
+    </text>
+    <text x="70" y="274" font-size="16" fill="#fbbf24" letter-spacing="1">MCP   ·   RAG   ·   Agents   ·   Next.js
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.9s" fill="freeze"/>
+    </text>
   </g>
-  <text class="t" x="72" y="274" font-size="14" fill="#8b93a7">Writing for 10K+ developers a month at mernstackdev.com</text>
 </svg>
