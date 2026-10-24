@@ -10,13 +10,13 @@ if (!username || !process.env.GITHUB_TOKEN) throw new Error("SNAKE_USER and GITH
 
 // Arcade look: dark empty cells, bright green ramp ending at #39d353, amber snake.
 const arcade = {
-  colorDots: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+  colorDots: ["#161b22", "#0e4429", "#1a8a3a", "#2ea043", "#39d353"],
   colorEmpty: "#161b22",
   colorDotBorder: "#0d1117",
   colorSnake: "#fbbf24",
   sizeCell: 20,
-  sizeDot: 16,
-  sizeDotBorderRadius: 8,
+  sizeDot: 18,
+  sizeDotBorderRadius: 5,
 };
 
 const outputs = [
