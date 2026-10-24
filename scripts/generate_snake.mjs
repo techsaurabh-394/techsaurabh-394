@@ -10,7 +10,7 @@ if (!username || !process.env.GITHUB_TOKEN) throw new Error("SNAKE_USER and GITH
 
 // Arcade look: dark empty cells, bright green ramp ending at #39d353, amber snake.
 const arcade = {
-  colorDots: ["#161b22", "#0e4429", "#1a8a3a", "#2ea043", "#39d353"],
+  colorDots: ["#161b22", "#2ea043", "#39d353", "#4ade80", "#7CFF9B"],
   colorEmpty: "#161b22",
   colorDotBorder: "#0d1117",
   colorSnake: "#fbbf24",
@@ -20,7 +20,7 @@ const arcade = {
 };
 
 const outputs = [
-  { format: "svg", drawOptions: arcade, animationOptions: { frameByStep: 1, stepDurationMs: 100 } },
+  { format: "svg", drawOptions: arcade, animationOptions: { frameByStep: 1, stepDurationMs: 70 } },
 ];
 
 const results = await generateSnakeAnimation(
