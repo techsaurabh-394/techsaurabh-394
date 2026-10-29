@@ -26,19 +26,24 @@ Currently open to **AI Engineer** and **Full-Stack** roles.
 
 <br/>
 
-<h2 align="center">$ whoami</h2>
+<h2 align="center">GitHub activity</h2>
 
-```ts
-const saurabh = {
-  role: ["AI Engineer", "Full-Stack Developer"],
-  building: ["AI agents", "MCP servers", "RAG pipelines with evals"],
-  stack: ["Python", "TypeScript", "React", "Next.js", "Node.js", "MongoDB", "Docker"],
-  cloud: ["GCP", "Azure"],
-  writes: "mernstackdev.com for 10K+ developers a month",
-  openTo: ["AI Engineer roles", "Full-Stack roles"],
-  reachMe: "saurabhpathak394@gmail.com",
-};
-```
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=techsaurabh-394&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=FBBF24&text_color=C9D1D9" alt="GitHub stats: stars, commits, PRs and issues"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=techsaurabh-394&layout=compact&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=C9D1D9" alt="Most used languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=techsaurabh-394&hide_border=true&background=0D1117&ring=2DD4BF&fire=FBBF24&currStreakLabel=2DD4BF&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak"/>
+</p>
+
+<h3 align="center">Contribution snake</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Snake game eating my contribution graph" width="100%"/>
+</p>
+
+<br/>
 
 <br/>
 
@@ -70,6 +75,22 @@ const saurabh = {
 </td>
 </tr>
 </table>
+
+<br/>
+
+<h2 align="center">$ whoami</h2>
+
+```ts
+const saurabh = {
+  role: ["AI Engineer", "Full-Stack Developer"],
+  building: ["AI agents", "MCP servers", "RAG pipelines with evals"],
+  stack: ["Python", "TypeScript", "React", "Next.js", "Node.js", "MongoDB", "Docker"],
+  cloud: ["GCP", "Azure"],
+  writes: "mernstackdev.com for 10K+ developers a month",
+  openTo: ["AI Engineer roles", "Full-Stack roles"],
+  reachMe: "saurabhpathak394@gmail.com",
+};
+```
 
 <br/>
 
@@ -151,33 +172,10 @@ const saurabh = {
 
 <br/>
 
-<h2 align="center">GitHub activity</h2>
-
-<p align="center"><sub>Stars, commits and contributions below update on their own as you push. The cards refresh every few hours.</sub></p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=techsaurabh-394&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=FBBF24&text_color=C9D1D9" alt="GitHub stats: stars, commits, PRs and issues"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=techsaurabh-394&layout=compact&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=C9D1D9" alt="Most used languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=techsaurabh-394&hide_border=true&background=0D1117&ring=2DD4BF&fire=FBBF24&currStreakLabel=2DD4BF&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak"/>
-</p>
-
-
-
 <h3 align="center">Star history</h3>
 
 <p align="center">
   <img src="https://api.star-history.com/svg?repos=techsaurabh-394/ai-engineer-roadmap,techsaurabh-394/mcp-notes-server,techsaurabh-394/rag-docs-chat,techsaurabh-394/claude-skills&type=Date&theme=dark" alt="Star history of my four featured repos" width="80%"/>
-</p>
-
-<h2 align="center">Snake game</h2>
-
-<p align="center"><sub>My contribution graph as a Snake game: the amber snake eats every green dot, then starts over. Real commits are the brightest dots; the rest is extra food for the game.</sub></p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake-dark.svg" alt="Snake game eating my contribution graph" width="100%"/>
 </p>
 
 <br/>
