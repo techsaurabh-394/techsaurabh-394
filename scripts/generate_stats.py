@@ -79,9 +79,9 @@ def main():
     commits = a["commits"] + a["private"]
     rows = [
         ("Total stars", stars), ("Total commits (all time)", commits), ("Total contributions", a["all"]),
-        ("Pull requests", u["pullRequests"]["totalCount"]), ("Code reviews", a["reviews"]), ("Issues", u["issues"]["totalCount"]),
-        ("Public repos", u["repositories"]["totalCount"]), ("Contributed to", u["repositoriesContributedTo"]["totalCount"]),
-        ("Followers", u["followers"]["totalCount"]),
+        ("Pull requests", u["pullRequests"]["totalCount"]),
+        ("Contributed to", u["repositoriesContributedTo"]["totalCount"]),
+        
     ]
     body = ""
     for i, (k, v) in enumerate(rows):
