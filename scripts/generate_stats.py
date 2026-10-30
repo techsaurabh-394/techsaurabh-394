@@ -21,7 +21,7 @@ query($login:String!){
     pullRequests{totalCount}
     issues{totalCount}
     repositoriesContributedTo(first:1, contributionTypes:[COMMIT,PULL_REQUEST,ISSUE,REPOSITORY]){totalCount}
-    contributionsCollection{totalCommitContributions restrictedContributionsCount}
+    createdAt
     repositories(ownerAffiliations:OWNER, isFork:false, first:100, orderBy:{field:STARGAZERS, direction:DESC}){
       totalCount
       nodes{stargazerCount languages(first:10, orderBy:{field:SIZE, direction:DESC}){edges{size node{name color}}}}
@@ -43,6 +43,25 @@ def gql():
     return d["data"]["user"]
 
 
+def all_time(created_year):
+    """Sum contributions for every year since signup (API allows 1 year per query)."""
+    from datetime import datetime
+    tot = {"commits": 0, "prs": 0, "issues": 0, "reviews": 0, "private": 0}
+    for y in range(created_year, datetime.utcnow().year + 1):
+        q = ('query($l:String!){user(login:$l){contributionsCollection(from:"%d-01-01T00:00:00Z",to:"%d-12-31T23:59:59Z")'
+             '{totalCommitContributions totalPullRequestContributions totalIssueContributions '
+             'totalPullRequestReviewContributions restrictedContributionsCount}}}' % (y, y))
+        req = urllib.request.Request("https://api.github.com/graphql",
+            data=json.dumps({"query": q, "variables": {"l": USER}}).encode(),
+            headers={"Authorization": f"bearer {TOKEN}", "User-Agent": "stats-gen"})
+        c = json.load(urllib.request.urlopen(req, timeout=30))["data"]["user"]["contributionsCollection"]
+        tot["commits"] += c["totalCommitContributions"]; tot["prs"] += c["totalPullRequestContributions"]
+        tot["issues"] += c["totalIssueContributions"]; tot["reviews"] += c["totalPullRequestReviewContributions"]
+        tot["private"] += c["restrictedContributionsCount"]
+    tot["all"] = sum(tot[k] for k in ("commits", "prs", "issues", "reviews", "private"))
+    return tot
+
+
 def card(w, h, title, body):
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
@@ -56,11 +75,11 @@ def main():
     u = gql()
     repos = u["repositories"]["nodes"]
     stars = sum(r["stargazerCount"] for r in repos)
-    cc = u["contributionsCollection"]
-    commits = cc["totalCommitContributions"] + cc["restrictedContributionsCount"]
+    a = all_time(int(u["createdAt"][:4]))
+    commits = a["commits"] + a["private"]
     rows = [
-        ("Total stars", stars), ("Commits (last year)", commits),
-        ("Pull requests", u["pullRequests"]["totalCount"]), ("Issues", u["issues"]["totalCount"]),
+        ("Total stars", stars), ("Total commits (all time)", commits), ("Total contributions", a["all"]),
+        ("Pull requests", u["pullRequests"]["totalCount"]), ("Code reviews", a["reviews"]), ("Issues", u["issues"]["totalCount"]),
         ("Public repos", u["repositories"]["totalCount"]), ("Contributed to", u["repositoriesContributedTo"]["totalCount"]),
         ("Followers", u["followers"]["totalCount"]),
     ]
@@ -90,7 +109,7 @@ def main():
         body += (f'<circle cx="{cx+5}" cy="{cy-5}" r="5" fill="{colors[n]}"/>'
                  f'<text x="{cx+16}" y="{cy}" font-size="13" fill="{TEXT}">{n} <tspan fill="{MUTED}">{100*v/total:.1f}%</tspan></text>')
     open("assets/langs.svg", "w").write(card(330, 90 + ((len(top) + 1) // 2) * 25 + 5, "Most Used Languages", body))
-    print("stars", stars, "commits", commits, "langs", top)
+    print("stars", stars, "commits", commits, a, "langs", top)
 
 
 main()

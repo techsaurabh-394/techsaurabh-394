@@ -123,8 +123,8 @@ const saurabh = {
 <h2 align="center">GitHub activity</h2>
 
 <p align="center">
-  <img height="195" src="assets/stats.svg" alt="GitHub stats: stars, commits, PRs and issues"/>
-  <img height="195" src="assets/langs.svg" alt="Most used languages"/>
+  <img height="260" src="assets/stats.svg" alt="GitHub stats: stars, commits, PRs and issues"/>
+  <img height="260" src="assets/langs.svg" alt="Most used languages"/>
 </p>
 
 <p align="center">
