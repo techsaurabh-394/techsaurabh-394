@@ -49,7 +49,6 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/7634">fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖</a></td><td><sub>Oct 29, 2026</sub></td></tr>
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8104">feat(voice-input): 语音输入识别语言新增西班牙语</a></td><td><sub>Oct 30, 2026</sub></td></tr>
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8101">fix(desktop): 代理鉴权下 worker 准备失败只关闭该 worker,不再关停整个受管浏览器</a></td><td><sub>Oct 31, 2026</sub></td></tr>
-<tr><td><a href="https://github.com/gauravpathak346/travelbuddiz-frontend"><b>gauravpathak346/travelbuddiz-frontend</b></a></td><td><a href="https://github.com/gauravpathak346/travelbuddiz-frontend/pull/2">auth api integrated</a></td><td><sub>Feb 7, 2026</sub></td></tr>
 </table>
 <!-- OSS:END -->
 
