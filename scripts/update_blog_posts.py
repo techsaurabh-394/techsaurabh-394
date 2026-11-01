@@ -1,89 +1,81 @@
 #!/usr/bin/env python3
-"""Replace the section between <!-- BLOG-POSTS:START --> and <!-- BLOG-POSTS:END --> in README.md
-with the latest posts from an RSS or Atom feed. Fails soft: if the feed can't be read, README is untouched.
+"""Write the latest blog posts into README.md between the BLOG-POSTS markers.
 
-Usage: BLOG_FEED_URL=https://example.com/feed python scripts/update_blog_posts.py [README.md] [max_posts]
+Your feed titles currently look like "How to Use: Complete Guide 2024 | Tutorials & Examples"
+(an SEO template overwrote them). When a title looks like that, a clean one is rebuilt from
+the post's URL slug instead, e.g. /mysql-json-functions-for-dynamic-data/ becomes
+"MySQL JSON Functions for Dynamic Data".
+
+Usage: python scripts/update_blog.py [feed_url]
 """
-from __future__ import annotations
-
-import os
 import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
 from email.utils import parsedate_to_datetime
+from html import unescape
 
-START, END = "<!-- BLOG-POSTS:START -->", "<!-- BLOG-POSTS:END -->"
-ATOM = "{http://www.w3.org/2005/Atom}"
+FEED = sys.argv[1] if len(sys.argv) > 1 else "https://mernstackdev.com/feed/"
+README = "README.md"
+LIMIT = 5
 
-
-def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "profile-readme-updater/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return r.read()
-
-
-def parse_date(s: str | None) -> str:
-    if not s:
-        return ""
-    for fn in (parsedate_to_datetime, lambda x: datetime.fromisoformat(x.replace("Z", "+00:00"))):
-        try:
-            return fn(s.strip()).strftime("%b %d, %Y")
-        except Exception:
-            continue
-    return ""
+JUNK = re.compile(r"complete guide 20\d\d|\|\s*tutorials", re.I)
+WORDS = {
+    "ai": "AI", "api": "API", "apis": "APIs", "mcp": "MCP", "rag": "RAG", "llm": "LLM", "llms": "LLMs",
+    "json": "JSON", "mysql": "MySQL", "sql": "SQL", "css": "CSS", "html": "HTML", "jwt": "JWT",
+    "graphql": "GraphQL", "mongodb": "MongoDB", "postgresql": "PostgreSQL", "typescript": "TypeScript",
+    "javascript": "JavaScript", "github": "GitHub", "gcp": "GCP", "aws": "AWS", "ui": "UI", "ux": "UX",
+    "ci": "CI", "cd": "CD", "openai": "OpenAI", "nextjs": "Next.js", "nodejs": "Node.js", "vs": "vs",
+}
+JOINED = {("node", "js"): "Node.js", ("next", "js"): "Next.js", ("react", "js"): "React.js",
+          ("vue", "js"): "Vue.js", ("express", "js"): "Express.js", ("nest", "js"): "NestJS"}
+SMALL = {"a", "an", "and", "as", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with", "vs"}
 
 
-def parse_feed(xml_bytes: bytes, limit: int) -> list[tuple[str, str, str]]:
-    root = ET.fromstring(xml_bytes)
-    posts: list[tuple[str, str, str]] = []
-    for item in root.iter("item"):  # RSS
-        title = (item.findtext("title") or "").strip()
+def title_from_slug(url):
+    parts = [p for p in url.rstrip("/").rsplit("/", 1)[-1].split("-") if p]
+    out, i = [], 0
+    while i < len(parts):
+        pair = tuple(parts[i:i + 2])
+        if pair in JOINED:
+            out.append(JOINED[pair]); i += 2; continue
+        w = parts[i]
+        if w in WORDS:
+            out.append(WORDS[w])
+        elif w in SMALL and out:
+            out.append(w)
+        else:
+            out.append(w[:1].upper() + w[1:])
+        i += 1
+    return " ".join(out)
+
+
+def main():
+    req = urllib.request.Request(FEED, headers={"User-Agent": "Mozilla/5.0 profile-readme"})
+    root = ET.fromstring(urllib.request.urlopen(req, timeout=30).read())
+    lines = []
+    for item in root.iter("item"):
         link = (item.findtext("link") or "").strip()
-        if title and link:
-            posts.append((title, link, parse_date(item.findtext("pubDate"))))
-    if not posts:
-        for entry in root.iter(f"{ATOM}entry"):  # Atom
-            title = (entry.findtext(f"{ATOM}title") or "").strip()
-            link_el = entry.find(f"{ATOM}link")
-            link = (link_el.get("href") if link_el is not None else "") or ""
-            if title and link:
-                posts.append((title, link, parse_date(entry.findtext(f"{ATOM}updated") or entry.findtext(f"{ATOM}published"))))
-    return posts[:limit]
+        title = unescape((item.findtext("title") or "").strip())
+        if not link:
+            continue
+        if not title or JUNK.search(title):
+            title = title_from_slug(link)
+        when = item.findtext("pubDate")
+        date = f" <sub>· {parsedate_to_datetime(when):%b %d, %Y}</sub>" if when else ""
+        lines.append(f"- [{title.replace(']', ')')}]({link}){date}")
+        if len(lines) == LIMIT:
+            break
+    if not lines:
+        raise SystemExit("No posts found in feed; README left unchanged.")
 
-
-def render(posts: list[tuple[str, str, str]]) -> str:
-    esc = lambda s: s.replace("[", "\\[").replace("]", "\\]")
-    lines = [f"- [{esc(t)}]({l})" + (f" <sub>· {d}</sub>" if d else "") for t, l, d in posts]
-    return "\n".join(lines)
-
-
-def main() -> int:
-    readme = sys.argv[1] if len(sys.argv) > 1 else "README.md"
-    limit = int(sys.argv[2]) if len(sys.argv) > 2 else 5
-    url = os.getenv("BLOG_FEED_URL", "https://mernstackdev.com/feed")
-    try:
-        posts = parse_feed(fetch(url), limit)
-    except Exception as e:
-        print(f"Could not read feed {url}: {e}. README left unchanged.")
-        return 0
-    if not posts:
-        print("Feed had no posts. README left unchanged.")
-        return 0
-    text = open(readme, encoding="utf-8").read()
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
-    if not pattern.search(text):
-        print("Markers not found in README. Add BLOG-POSTS:START/END comments.")
-        return 1
-    new = pattern.sub(f"{START}\n{render(posts)}\n{END}", text)
+    text = open(README, encoding="utf-8").read()
+    new = re.sub(r"(<!-- BLOG-POSTS:START -->).*?(<!-- BLOG-POSTS:END -->)",
+                 lambda m: f"{m[1]}\n" + "\n".join(lines) + f"\n{m[2]}", text, flags=re.S)
     if new != text:
-        open(readme, "w", encoding="utf-8").write(new)
-        print(f"Updated README with {len(posts)} posts.")
-    else:
-        print("No changes.")
-    return 0
+        open(README, "w", encoding="utf-8").write(new)
+    print("\n".join(lines))
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
