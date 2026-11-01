@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="GitHub activity: 98 commits, 14 merged pull requests, 0 code reviews in the last 12 months, 30 total stars.">
-<title>GitHub activity: 98 commits, 14 merged pull requests, 0 code reviews in the last 12 months, 30 total stars.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="GitHub activity: 98 commits, 15 merged pull requests, 0 code reviews in the last 12 months, 30 total stars.">
+<title>GitHub activity: 98 commits, 15 merged pull requests, 0 code reviews in the last 12 months, 30 total stars.</title>
 <defs>
   <filter id="s-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
   <filter id="s-glow" x="-100%" y="-100%" width="300%" height="300%">
@@ -44,7 +44,7 @@
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze"/>
         <text x="32" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">98</text>
         <text x="33" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">commits</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.6s" fill="freeze"/>
-        <text x="170" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">14</text>
+        <text x="170" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">15</text>
         <text x="171" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">merged PRs</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.6s" fill="freeze"/>
         <text x="308" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">0</text>
         <text x="309" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">code reviews</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.6s" fill="freeze"/>

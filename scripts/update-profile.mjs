@@ -265,6 +265,14 @@ async function blogMarkdown() {
     date: (it.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1],
   }));
   if (!items.length) throw new Error("feed had no items");
+  const nice = (p) => {
+    if (!/Complete Guide|Tutorials & Examples/i.test(p.title)) return p.title;
+    const slug = p.link.replace(/\/+$/, "").split("/").pop();
+    const small = new Set(["a", "an", "and", "for", "in", "of", "on", "the", "to", "with", "your"]);
+    const up = { ai: "AI", api: "API", mcp: "MCP", mysql: "MySQL", json: "JSON", rag: "RAG", llm: "LLM", js: "JS", node: "Node", sql: "SQL" };
+    return slug.split("-").map((w, i) => up[w] || (i && small.has(w) ? w : w[0].toUpperCase() + w.slice(1))).join(" ");
+  };
+  items.forEach((p) => (p.title = nice(p)));
   return items.map((p) => `- [${p.title.replace(/[[\]]/g, "")}](${p.link})${p.date ? ` <sub>${fmtDate(p.date)}</sub>` : ""}`).join("\n");
 }
 

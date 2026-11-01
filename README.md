@@ -49,6 +49,7 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/7634">fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖</a></td><td><sub>Oct 29, 2026</sub></td></tr>
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8104">feat(voice-input): 语音输入识别语言新增西班牙语</a></td><td><sub>Oct 30, 2026</sub></td></tr>
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8101">fix(desktop): 代理鉴权下 worker 准备失败只关闭该 worker,不再关停整个受管浏览器</a></td><td><sub>Oct 31, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/gauravpathak346/travelbuddiz-frontend"><b>gauravpathak346/travelbuddiz-frontend</b></a></td><td><a href="https://github.com/gauravpathak346/travelbuddiz-frontend/pull/2">auth api integrated</a></td><td><sub>Feb 7, 2026</sub></td></tr>
 </table>
 <!-- OSS:END -->
 
@@ -93,11 +94,11 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 ## Latest from the blog
 
 <!-- BLOG-POSTS:START -->
-- [Bo2bot: Messaging Built: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
-- [How to Use: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>Jul 16, 2026</sub>
-- [Using Streams in: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/using-streams-in-node-js/) <sub>Jul 16, 2026</sub>
-- [Revolutionizing React: The: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>Jul 16, 2026</sub>
-- [Migrating Your Existing: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
+- [Bo2bot Messaging Built for AI Agents](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
+- [MySQL JSON Functions for Dynamic Data](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>Jul 16, 2026</sub>
+- [Using Streams in Node JS](https://mernstackdev.com/using-streams-in-node-js/) <sub>Jul 16, 2026</sub>
+- [Revolutionizing React Server Components](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>Jul 16, 2026</sub>
+- [Express Applications to Version 5](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 <sub>[Read more on mernstackdev.com](https://mernstackdev.com)</sub>

@@ -128,7 +128,9 @@ function hero() {
     <circle cx="94" cy="286" r="4.5" fill="${C.rose}" fill-opacity="0.8"/>
     <circle cx="110" cy="286" r="4.5" fill="${C.violet}" fill-opacity="0.8"/>
     <circle cx="126" cy="286" r="4.5" fill="${C.cyan}" fill-opacity="0.8"/>
-    <text x="664" y="290" text-anchor="end" font-family="${MONO}" font-size="12" fill="${C.faint}">agent.log</text>
+    <text x="146" y="290" font-family="${MONO}" font-size="13" fill="${C.muted}">saurabh@agent <tspan fill="${C.cyan}">~</tspan> what I'm building right now</text>
+    <circle cx="628" cy="286" r="4" fill="${C.mint}"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="664" y="290" text-anchor="end" font-family="${MONO}" font-size="12" font-weight="700" fill="${C.mint}">LIVE</text>
     <text x="96" y="${BASE}" font-family="${MONO}" font-size="18" font-weight="700" fill="${C.cyan}">❯</text>
     ${texts}${caret}
   </g>
