@@ -33,9 +33,7 @@ const saurabh = {
 
 ## Commit activity
 
-<p align="center">
-  <img src="assets/activity.svg" width="100%" alt="Weekly contributions over the last 12 months, with current and longest streak"/>
-</p>
+
 
 <p align="center">
   <img src="assets/stats.svg" width="49%" alt="GitHub stats: commits, merged pull requests, code reviews and stars"/>
