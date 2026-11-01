@@ -1,1 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="170" viewBox="0 0 330 170" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif"><rect x="0.5" y="0.5" rx="6" width="329" height="169" fill="#0D1117" stroke="#30363D"/><text x="25" y="35" font-size="18" font-weight="600" fill="#2DD4BF">Most Used Languages</text><clipPath id="c"><rect x="25" y="52" width="280" height="8" rx="4"/></clipPath><g clip-path="url(#c)"><rect x="25.0" y="52" width="161.1" height="8" fill="#f1e05a"/><rect x="186.1" y="52" width="69.2" height="8" fill="#3178c6"/><rect x="255.2" y="52" width="36.9" height="8" fill="#3572A5"/><rect x="292.2" y="52" width="8.7" height="8" fill="#e34c26"/><rect x="300.9" y="52" width="2.9" height="8" fill="#663399"/><rect x="303.8" y="52" width="1.2" height="8" fill="#89e051"/></g><circle cx="30" cy="85" r="5" fill="#f1e05a"/><text x="41" y="90" font-size="13" fill="#C9D1D9">JavaScript <tspan fill="#8B949E">57.5%</tspan></text><circle cx="180" cy="85" r="5" fill="#3178c6"/><text x="191" y="90" font-size="13" fill="#C9D1D9">TypeScript <tspan fill="#8B949E">24.7%</tspan></text><circle cx="30" cy="110" r="5" fill="#3572A5"/><text x="41" y="115" font-size="13" fill="#C9D1D9">Python <tspan fill="#8B949E">13.2%</tspan></text><circle cx="180" cy="110" r="5" fill="#e34c26"/><text x="191" y="115" font-size="13" fill="#C9D1D9">HTML <tspan fill="#8B949E">3.1%</tspan></text><circle cx="30" cy="135" r="5" fill="#663399"/><text x="41" y="140" font-size="13" fill="#C9D1D9">CSS <tspan fill="#8B949E">1.0%</tspan></text><circle cx="180" cy="135" r="5" fill="#89e051"/><text x="191" y="140" font-size="13" fill="#C9D1D9">Shell <tspan fill="#8B949E">0.4%</tspan></text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="Most used languages, syncing">
+<title>Most used languages, syncing</title>
+<defs>
+  <filter id="l-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="l-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="l-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="l-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="l-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="l-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="l-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern>
+    <clipPath id="l-bar"><rect x="32" y="76" width="0" height="12" rx="6">
+      <animate attributeName="width" from="0" to="536" begin="0.2s" dur="1.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/></rect></clipPath></defs>
+  <clipPath id="l-clip"><rect width="600" height="270" rx="22"/></clipPath>
+  <g clip-path="url(#l-clip)">
+    <rect width="600" height="270" fill="#050816"/>
+    
+  <circle cx="60" cy="20" r="150" fill="#A78BFA" opacity="0.22" filter="url(#l-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 20;0 0" dur="20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="560" cy="270" r="170" fill="#67E8F9" opacity="0.2" filter="url(#l-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-30 -20;0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="600" height="270" fill="url(#l-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="269" rx="22" fill="none" stroke="url(#l-edge)"/>
+  <text x="32" y="48" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#E6EAF7">Most used languages</text>
+  <text x="568" y="48" text-anchor="end" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#8B93B8">Syncing on the first workflow run</text>
+  <rect x="32" y="76" width="536" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.06"/>
+  <g clip-path="url(#l-bar)"></g>
+  
+</svg>

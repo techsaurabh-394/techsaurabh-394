@@ -1,1 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="205" viewBox="0 0 330 205" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif"><rect x="0.5" y="0.5" rx="6" width="329" height="204" fill="#0D1117" stroke="#30363D"/><text x="25" y="35" font-size="18" font-weight="600" fill="#2DD4BF">techsaurabh-394 GitHub Stats</text><circle cx="32" cy="63" r="4" fill="#FBBF24"/><text x="46" y="68" font-size="14" fill="#C9D1D9">Total stars</text><text x="300" y="68" font-size="14" font-weight="600" fill="#C9D1D9" text-anchor="end">30</text><circle cx="32" cy="88" r="4" fill="#FBBF24"/><text x="46" y="93" font-size="14" fill="#C9D1D9">Total commits (all time)</text><text x="300" y="93" font-size="14" font-weight="600" fill="#C9D1D9" text-anchor="end">117</text><circle cx="32" cy="113" r="4" fill="#FBBF24"/><text x="46" y="118" font-size="14" fill="#C9D1D9">Total contributions</text><text x="300" y="118" font-size="14" font-weight="600" fill="#C9D1D9" text-anchor="end">146</text><circle cx="32" cy="138" r="4" fill="#FBBF24"/><text x="46" y="143" font-size="14" fill="#C9D1D9">Pull requests</text><text x="300" y="143" font-size="14" font-weight="600" fill="#C9D1D9" text-anchor="end">27</text><circle cx="32" cy="163" r="4" fill="#FBBF24"/><text x="46" y="168" font-size="14" fill="#C9D1D9">Contributed to</text><text x="300" y="168" font-size="14" font-weight="600" fill="#C9D1D9" text-anchor="end">7</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="GitHub activity, syncing">
+<title>GitHub activity, syncing</title>
+<defs>
+  <filter id="s-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="s-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="s-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="s-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="s-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="s-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="s-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern>
+    <linearGradient id="s-line" gradientUnits="userSpaceOnUse" x1="32" y1="0" x2="568" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <linearGradient id="s-area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#67E8F9" stop-opacity="0.32"/><stop offset="1" stop-color="#67E8F9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <clipPath id="s-clip"><rect width="600" height="270" rx="22"/></clipPath>
+  <g clip-path="url(#s-clip)">
+    <rect width="600" height="270" fill="#050816"/>
+    
+  <circle cx="540" cy="30" r="150" fill="#67E8F9" opacity="0.22" filter="url(#s-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-30 20;0 0" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="40" cy="270" r="170" fill="#A78BFA" opacity="0.24" filter="url(#s-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 -20;0 0" dur="22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="600" height="270" fill="url(#s-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="269" rx="22" fill="none" stroke="url(#s-edge)"/>
+  <text x="32" y="48" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#E6EAF7">GitHub activity</text>
+  <text x="568" y="48" text-anchor="end" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#8B93B8">Syncing on the first workflow run</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.6s" fill="freeze"/>
+        <text x="32" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">–</text>
+        <text x="33" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">commits</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.6s" fill="freeze"/>
+        <text x="170" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">–</text>
+        <text x="171" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">merged PRs</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.6s" fill="freeze"/>
+        <text x="308" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">–</text>
+        <text x="309" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">code reviews</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.6s" fill="freeze"/>
+        <text x="446" y="112" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" fill="#E6EAF7">–</text>
+        <text x="447" y="136" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">total stars</text></g>
+  <line x1="32" y1="226.5" x2="568" y2="226.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="300" y="200" text-anchor="middle" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#8B93B8">Live numbers appear after the first workflow run</text>
+  <text x="32" y="252" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#8B93B8">Weekly contributions, last 12 months</text>
+  <text x="568" y="252" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" fill="#8B93B8"></text>
+</svg>

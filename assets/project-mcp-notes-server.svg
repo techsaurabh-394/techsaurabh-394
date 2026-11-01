@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="mcp-notes-server: TypeScript MCP server that gives AI assistants a searchable notes store, exposed as 6 typed tools.">
+<title>mcp-notes-server: TypeScript MCP server that gives AI assistants a searchable notes store, exposed as 6 typed tools.</title>
+<defs>
+  <filter id="pmcpnotes-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="pmcpnotes-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="pmcpnotes-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="pmcpnotes-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="pmcpnotes-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="pmcpnotes-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="pmcpnotes-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern></defs>
+  <clipPath id="pmcpnotes-clip"><rect width="600" height="210" rx="22"/></clipPath>
+  <g clip-path="url(#pmcpnotes-clip)">
+    <rect width="600" height="210" fill="#050816"/>
+    
+  <circle cx="560" cy="10" r="140" fill="#67E8F9" opacity="0.3" filter="url(#pmcpnotes-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-30 25;0 0" dur="16s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="80" cy="230" r="120" fill="#A78BFA" opacity="0.14" filter="url(#pmcpnotes-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 -15;0 0" dur="22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="600" height="210" fill="url(#pmcpnotes-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="209" rx="22" fill="none" stroke="url(#pmcpnotes-edge)"/>
+  <g transform="translate(32 34)" fill="none" stroke="#67E8F9" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M2 1h10l4 4v12H2z"/><path d="M12 1v4h4" /><path d="M5 9h8M5 12.5h5"/></g>
+  <text x="58" y="49" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#E6EAF7">mcp-notes-server</text>
+  <text x="32" y="90" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#C3C9E4">TypeScript MCP server that gives AI assistants a searchable notes</text><text x="32" y="113" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#C3C9E4">store, exposed as 6 typed tools.</text>
+  <line x1="32" y1="152" x2="568" y2="152" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  
+  
+</svg>
