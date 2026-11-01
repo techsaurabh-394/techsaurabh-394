@@ -40,7 +40,16 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 ## Open-source contributions
 
 <!-- OSS:START -->
-<p align="center"><sub>Merged pull requests to other projects show up here automatically.</sub></p>
+<table align="center">
+<tr><th>Project</th><th>Pull request</th><th>Merged</th></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/7141">fix(desktop): 本地库 DB_INIT_FAILED 不再误导用户更新，且插件绑定刷新失败不阻断就绪</a></td><td><sub>Nov 1, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8306">fix(desktop): 例行/渠道专线会话可通过 sessions.setStatus 归档 (#8299)</a></td><td><sub>Nov 1, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/7192">fix(cross-agent-convert): 修正 Codex hooks 双向转换的顶层结构并避免重复提示</a></td><td><sub>Oct 27, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8014">fix(forge): 拆分 Agent 手册 §4.11.3 为独立章节，解除 4.11 章超 32 KiB 上限</a></td><td><sub>Oct 30, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/7634">fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖</a></td><td><sub>Oct 29, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8104">feat(voice-input): 语音输入识别语言新增西班牙语</a></td><td><sub>Oct 30, 2026</sub></td></tr>
+<tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8101">fix(desktop): 代理鉴权下 worker 准备失败只关闭该 worker,不再关停整个受管浏览器</a></td><td><sub>Oct 31, 2026</sub></td></tr>
+</table>
 <!-- OSS:END -->
 
 ## Tech stack
@@ -84,11 +93,11 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 ## Latest from the blog
 
 <!-- BLOG-POSTS:START -->
-- [Bo2bot Messaging Built for AI Agents](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
-- [MySQL JSON Functions for Dynamic Data](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>Jul 16, 2026</sub>
-- [Using Streams in Node.js](https://mernstackdev.com/using-streams-in-node-js/) <sub>Jul 16, 2026</sub>
-- [Revolutionizing React Server Components](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>Jul 16, 2026</sub>
-- [Express Applications to Version 5](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
+- [Bo2bot: Messaging Built: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
+- [How to Use: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>Jul 16, 2026</sub>
+- [Using Streams in: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/using-streams-in-node-js/) <sub>Jul 16, 2026</sub>
+- [Revolutionizing React: The: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>Jul 16, 2026</sub>
+- [Migrating Your Existing: Complete Guide 2024 | Tutorials & Examples](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 <sub>[Read more on mernstackdev.com](https://mernstackdev.com)</sub>
