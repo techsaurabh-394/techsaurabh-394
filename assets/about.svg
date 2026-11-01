@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" role="img" aria-label="Terminal about me: Saurabh Pathak, AI engineer and full-stack developer focused on agents, MCP servers and RAG with evals, open to roles.">
+<title>Terminal about me: Saurabh Pathak, AI engineer and full-stack developer focused on agents, MCP servers and RAG with evals, open to roles.</title>
+<defs>
+  <filter id="ab-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="ab-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="ab-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="ab-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="ab-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="ab-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="ab-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern></defs>
+  <clipPath id="ab-clip"><rect width="1200" height="372" rx="24"/></clipPath>
+  <g clip-path="url(#ab-clip)">
+    <rect width="1200" height="372" fill="#050816"/>
+    
+  <circle cx="1050" cy="40" r="200" fill="#A78BFA" opacity="0.22" filter="url(#ab-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-40 30;0 0" dur="22s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="150" cy="330" r="220" fill="#67E8F9" opacity="0.16" filter="url(#ab-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;40 -20;0 0" dur="26s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="1200" height="372" fill="url(#ab-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="371" rx="24" fill="none" stroke="url(#ab-edge)"/>
+  <rect x="28" y="24" width="1144" height="324" rx="18" fill="url(#ab-glass)" stroke="url(#ab-edge)" stroke-width="1"/>
+  <path d="M46 25 H1154" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="58" cy="52" r="5.5" fill="#F472B6" fill-opacity="0.85"/><circle cx="78" cy="52" r="5.5" fill="#A78BFA" fill-opacity="0.85"/><circle cx="98" cy="52" r="5.5" fill="#67E8F9" fill-opacity="0.85"/>
+  <text x="600" y="57" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#4A5280">saurabh@portfolio: ~/about</text>
+  <line x1="28" y1="72" x2="1172" y2="72" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="70" y="104" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#67E8F9">$</text><clipPath id="abc4"><rect x="92" y="84" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.025;0.069;1" values="0;0;76.8;76.8"/></rect></clipPath>
+      <text x="92" y="104" textLength="76.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc4)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#E6EAF7">whoami</text><clipPath id="abc13"><rect x="92" y="112" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.081;0.15;1" values="0;0;508.8;508.8"/></rect></clipPath>
+      <text x="92" y="132" textLength="508.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc13)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="400" fill="#8B93B8">saurabh pathak | AI engineer and full-stack developer</text><text x="70" y="168" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#67E8F9">$</text><clipPath id="abc26"><rect x="92" y="148" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.163;0.206;1" values="0;0;144;144"/></rect></clipPath>
+      <text x="92" y="168" textLength="144" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc26)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#E6EAF7">cat focus.txt</text><clipPath id="abc35"><rect x="92" y="176" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.219;0.287;1" values="0;0;662.4;662.4"/></rect></clipPath>
+      <text x="92" y="196" textLength="662.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc35)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="400" fill="#8B93B8">agents that act on real systems, MCP servers, RAG measured with evals</text><text x="70" y="232" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#67E8F9">$</text><clipPath id="abc48"><rect x="92" y="212" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.3;0.344;1" values="0;0;134.4;134.4"/></rect></clipPath>
+      <text x="92" y="232" textLength="134.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc48)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#E6EAF7">ls projects/</text><clipPath id="abc57"><rect x="92" y="240" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.356;0.425;1" values="0;0;528;528"/></rect></clipPath>
+      <text x="92" y="260" textLength="528" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc57)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="400" fill="#8B93B8">mcp-notes-server  ai-engineer-roadmap  mcp-safe-actions</text><text x="70" y="296" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#67E8F9">$</text><clipPath id="abc70"><rect x="92" y="276" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.438;0.481;1" values="0;0;134.4;134.4"/></rect></clipPath>
+      <text x="92" y="296" textLength="134.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc70)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="700" fill="#E6EAF7">echo $STATUS</text><clipPath id="abc79"><rect x="92" y="304" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.494;0.563;1" values="0;0;489.6;489.6"/></rect></clipPath>
+      <text x="92" y="324" textLength="489.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#abc79)" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="16" font-weight="400" fill="#8B93B8">open to AI engineer and full-stack roles. say hi :)</text>
+  <rect x="587.5999999999999" y="308" width="9" height="20" rx="1.5" fill="#67E8F9"><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/></rect>
+</svg>

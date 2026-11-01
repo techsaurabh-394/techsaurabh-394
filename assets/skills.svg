@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="266" viewBox="0 0 1200 266" role="img" aria-label="Skill levels: TypeScript / Node.js 90%, Python / FastAPI 85%, React / Next.js 88%, MCP and AI agents 82%, RAG and evals 78%, Docker / CI / Cloud 72%">
+<title>Skill levels: TypeScript / Node.js 90%, Python / FastAPI 85%, React / Next.js 88%, MCP and AI agents 82%, RAG and evals 78%, Docker / CI / Cloud 72%</title>
+<defs>
+  <filter id="k-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="k-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="k-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="k-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="k-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="k-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="k-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern></defs>
+  <clipPath id="k-clip"><rect width="1200" height="266" rx="22"/></clipPath>
+  <g clip-path="url(#k-clip)">
+    <rect width="1200" height="266" fill="#050816"/>
+    
+  <circle cx="1100" cy="30" r="160" fill="#67E8F9" opacity="0.16" filter="url(#k-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-30 20;0 0" dur="20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="100" cy="266" r="180" fill="#A78BFA" opacity="0.2" filter="url(#k-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 -20;0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="1200" height="266" fill="url(#k-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="265" rx="22" fill="none" stroke="url(#k-edge)"/>
+  <text x="48" y="44" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EAF7">Skill levels</text>
+  <text x="1152" y="44" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" fill="#4A5280">self-assessed, in daily use</text>
+  <text x="48" y="80" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">TypeScript / Node.js</text>
+      <text x="488" y="80" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">90%</text>
+      <rect x="48" y="92" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="48" y="92" width="0" height="10" rx="5" fill="#67E8F9" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="396" begin="0.2s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="97" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="48" to="444" begin="0.2s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.2s" dur="1.3s" fill="freeze"/></circle><text x="618" y="80" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">Python / FastAPI</text>
+      <text x="1058" y="80" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">85%</text>
+      <rect x="618" y="92" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="618" y="92" width="0" height="10" rx="5" fill="#A78BFA" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="374" begin="0.35s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="97" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="618" to="992" begin="0.35s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.35s" dur="1.3s" fill="freeze"/></circle><text x="48" y="142" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">React / Next.js</text>
+      <text x="488" y="142" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">88%</text>
+      <rect x="48" y="154" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="48" y="154" width="0" height="10" rx="5" fill="#67E8F9" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="387.2" begin="0.5s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="159" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="48" to="435.2" begin="0.5s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.5s" dur="1.3s" fill="freeze"/></circle><text x="618" y="142" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">MCP and AI agents</text>
+      <text x="1058" y="142" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">82%</text>
+      <rect x="618" y="154" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="618" y="154" width="0" height="10" rx="5" fill="#A78BFA" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="360.8" begin="0.6499999999999999s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="159" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="618" to="978.8" begin="0.6499999999999999s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.6499999999999999s" dur="1.3s" fill="freeze"/></circle><text x="48" y="204" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">RAG and evals</text>
+      <text x="488" y="204" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">78%</text>
+      <rect x="48" y="216" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="48" y="216" width="0" height="10" rx="5" fill="#67E8F9" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="343.2" begin="0.8s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="221" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="48" to="391.2" begin="0.8s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.8s" dur="1.3s" fill="freeze"/></circle><text x="618" y="204" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#E6EAF7">Docker / CI / Cloud</text>
+      <text x="1058" y="204" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" fill="#8B93B8">72%</text>
+      <rect x="618" y="216" width="440" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="618" y="216" width="0" height="10" rx="5" fill="#A78BFA" filter="url(#k-glow)">
+        <animate attributeName="width" from="0" to="316.8" begin="0.95s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect>
+      <circle cy="221" r="3" fill="#FFFFFF" opacity="0"><animate attributeName="cx" from="618" to="934.8" begin="0.95s" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" begin="0.95s" dur="1.3s" fill="freeze"/></circle>
+</svg>

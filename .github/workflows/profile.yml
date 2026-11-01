@@ -28,7 +28,9 @@ jobs:
           node-version: 22
 
       - name: Build animated hero, divider and architecture
-        run: node scripts/build-static.mjs
+        run: |
+          node scripts/build-static.mjs
+          node scripts/build-extra.mjs
 
       - name: Refresh stats, languages, project cards, OSS table and blog posts
         run: node scripts/update-profile.mjs

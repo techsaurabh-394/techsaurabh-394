@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-label="On repeat: Lofi coding beats">
+<title>On repeat: Lofi coding beats</title>
+<defs>
+  <filter id="p-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="p-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="p-soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <linearGradient id="p-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.085"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="p-edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="p-beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <pattern id="p-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.055"/>
+  </pattern></defs>
+  <clipPath id="p-clip"><rect width="600" height="250" rx="22"/></clipPath>
+  <g clip-path="url(#p-clip)">
+    <rect width="600" height="250" fill="#050816"/>
+    
+  <circle cx="300" cy="250" r="200" fill="#A78BFA" opacity="0.25" filter="url(#p-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 -20;0 0" dur="20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+  <circle cx="560" cy="40" r="120" fill="#F472B6" opacity="0.18" filter="url(#p-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-20 20;0 0" dur="24s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+  </circle>
+    <rect width="600" height="250" fill="url(#p-dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="249" rx="22" fill="none" stroke="url(#p-edge)"/>
+  <text x="32" y="44" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#E6EAF7">On repeat</text>
+  <g transform="translate(560 38)"><circle r="4" fill="#5EEAD4"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle></g>
+  <line x1="32" y1="58" x2="568" y2="58" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <g transform="translate(0 -4)"><rect x="40" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;30;12;18;8" dur="0.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;128;146;140;150" dur="0.55s" repeatCount="indefinite"/></rect><rect x="64" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;67;12;40.199999999999996;8" dur="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;91;146;117.8;150" dur="0.95s" repeatCount="indefinite"/></rect><rect x="88" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;54;12;32.4;8" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;104;146;125.6;150" dur="1.35s" repeatCount="indefinite"/></rect><rect x="112" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;41;12;24.599999999999998;8" dur="0.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;117;146;133.4;150" dur="0.85s" repeatCount="indefinite"/></rect><rect x="136" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;78;12;46.8;8" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;80;146;111.2;150" dur="1.25s" repeatCount="indefinite"/></rect><rect x="160" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;65;12;39;8" dur="0.75s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;93;146;119;150" dur="0.75s" repeatCount="indefinite"/></rect><rect x="184" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;52;12;31.2;8" dur="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;106;146;126.8;150" dur="1.15s" repeatCount="indefinite"/></rect><rect x="208" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;39;12;23.4;8" dur="0.65s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;119;146;134.6;150" dur="0.65s" repeatCount="indefinite"/></rect><rect x="232" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;76;12;45.6;8" dur="1.05s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;82;146;112.4;150" dur="1.05s" repeatCount="indefinite"/></rect><rect x="256" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;63;12;37.8;8" dur="0.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;95;146;120.2;150" dur="0.55s" repeatCount="indefinite"/></rect><rect x="280" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;50;12;30;8" dur="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;108;146;128;150" dur="0.95s" repeatCount="indefinite"/></rect><rect x="304" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;37;12;22.2;8" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;121;146;135.8;150" dur="1.35s" repeatCount="indefinite"/></rect><rect x="328" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;74;12;44.4;8" dur="0.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;84;146;113.6;150" dur="0.85s" repeatCount="indefinite"/></rect><rect x="352" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;61;12;36.6;8" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;97;146;121.4;150" dur="1.25s" repeatCount="indefinite"/></rect><rect x="376" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;48;12;28.799999999999997;8" dur="0.75s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;110;146;129.2;150" dur="0.75s" repeatCount="indefinite"/></rect><rect x="400" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;35;12;21;8" dur="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;123;146;137;150" dur="1.15s" repeatCount="indefinite"/></rect><rect x="424" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;72;12;43.199999999999996;8" dur="0.65s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;86;146;114.8;150" dur="0.65s" repeatCount="indefinite"/></rect><rect x="448" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;59;12;35.4;8" dur="1.05s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;99;146;122.6;150" dur="1.05s" repeatCount="indefinite"/></rect><rect x="472" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;46;12;27.599999999999998;8" dur="0.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;112;146;130.4;150" dur="0.55s" repeatCount="indefinite"/></rect><rect x="496" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;33;12;19.8;8" dur="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;125;146;138.2;150" dur="0.95s" repeatCount="indefinite"/></rect><rect x="520" width="14" rx="4" fill="#67E8F9" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;70;12;42;8" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;88;146;116;150" dur="1.35s" repeatCount="indefinite"/></rect><rect x="544" width="14" rx="4" fill="#A78BFA" fill-opacity="0.9" y="150" height="8">
+      <animate attributeName="height" values="8;57;12;34.199999999999996;8" dur="0.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;101;146;123.8;150" dur="0.85s" repeatCount="indefinite"/></rect></g>
+  <text x="32" y="200" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#E6EAF7">Lofi coding beats</text>
+  <text x="32" y="224" font-family="'Segoe UI Variable Display','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#8B93B8">On repeat while I ship</text>
+</svg>

@@ -19,6 +19,17 @@
 
 I build **AI agents that act on real systems**: MCP servers that give assistants tools, RAG pipelines that are measured with evals rather than guessed, and the production web apps around them. I also write about it at [mernstackdev.com](https://mernstackdev.com) for **10K+ developers a month**.
 
+## About me
+
+<img src="assets/about.svg" width="100%" alt="Terminal about me: Saurabh Pathak, AI engineer and full-stack developer focused on agents, MCP servers and RAG with evals, open to roles."/>
+
+## Right now
+
+<p align="center">
+  <img src="assets/now.svg" width="49%" alt="Currently: building MCP servers with approval-gated actions, learning agent evals, reading the MCP spec."/>
+  <img src="assets/playing.svg" width="49%" alt="On repeat: lofi coding beats"/>
+</p>
+
 ## How I build AI systems
 
 <img src="assets/architecture.svg" width="100%" alt="Two animated pipelines. Agent loop: you ask, an LLM agent plans and calls typed tools through an MCP client and server, and results return as context. RAG: documents are chunked, embedded and stored, answers are generated from the top-k results, and eval scores feed back into chunking and prompts."/>
@@ -51,6 +62,10 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 <tr><td><a href="https://github.com/makecindy/cindy"><b>makecindy/cindy</b></a></td><td><a href="https://github.com/makecindy/cindy/pull/8101">fix(desktop): 代理鉴权下 worker 准备失败只关闭该 worker,不再关停整个受管浏览器</a></td><td><sub>Oct 31, 2026</sub></td></tr>
 </table>
 <!-- OSS:END -->
+
+## Skills
+
+<img src="assets/skills.svg" width="100%" alt="Skill levels: TypeScript and Node.js 90%, Python and FastAPI 85%, React and Next.js 88%, MCP and AI agents 82%, RAG and evals 78%, Docker, CI and cloud 72%."/>
 
 ## Tech stack
 
@@ -113,6 +128,10 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 <p align="center">
   If my repos or the roadmap helped you, a ⭐ helps others find them.<br/><br/>
   <a href="https://buymeacoffee.com/saurabhdev"><img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=techsaurabh-394&label=Profile+views&color=0e75b6&style=for-the-badge" alt="Profile views counter"/>
 </p>
 
 <p align="center">
