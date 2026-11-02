@@ -26,8 +26,7 @@ I build **AI agents that act on real systems**: MCP servers that give assistants
 ## Right now
 
 <p align="center">
-  <img src="assets/now.svg" width="49%" alt="Currently: building MCP servers with approval-gated actions, learning agent evals, reading the MCP spec."/>
-  <img src="assets/playing.svg" width="49%" alt="On repeat: lofi coding beats"/>
+  <img src="assets/now.svg" width="100%" alt="Currently: building MCP servers with approval-gated actions, learning agent evals, reading the MCP spec."/>
 </p>
 
 ## How I build AI systems

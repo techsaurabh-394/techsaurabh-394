@@ -68,8 +68,14 @@ function hero() {
       </rect></clipPath>`;
     })
     .join("");
+  // Gate each phrase to its own time slot so two phrases can never show together, even where clip animation is unsupported.
+  const gate = (i) => {
+    const a = kt(i * SLOT), b = kt(i * SLOT + HOLD_END + ERASE + 0.1);
+    const kts = i === 0 ? `0;${b};1` : `0;${a};${b};1`, vs = i === 0 ? "1;0;0" : "0;1;0;0";
+    return `<animate attributeName="opacity" dur="${T}s" repeatCount="indefinite" calcMode="discrete" keyTimes="${kts}" values="${vs}"/>`;
+  };
   const texts = phrases
-    .map((p, i) => `<text x="${X0}" y="${BASE}" textLength="${f(p.length * CW)}" lengthAdjust="spacingAndGlyphs" clip-path="url(#${id}-type${i})" font-family="${MONO}" font-size="18" fill="${C.text}">${esc(p)}</text>`)
+    .map((p, i) => `<text x="${X0}" y="${BASE}" textLength="${f(p.length * CW)}" lengthAdjust="spacingAndGlyphs" clip-path="url(#${id}-type${i})" font-family="${MONO}" font-size="18" fill="${C.text}" opacity="${i === 0 ? 1 : 0}">${gate(i)}${esc(p)}</text>`)
     .join("");
   const caretT = events.map((e) => kt(e[0])), caretX = events.map((e) => f(X0 + 2 + e[2] * CW));
   const caret = `<rect y="${BASE - 17}" width="9" height="21" rx="1.5" fill="${C.cyan}" x="${X0 + 2}">

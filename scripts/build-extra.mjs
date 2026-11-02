@@ -120,6 +120,5 @@ function skills() {
 
 writeFileSync("assets/about.svg", about());
 writeFileSync("assets/now.svg", now());
-writeFileSync("assets/playing.svg", playing());
 writeFileSync("assets/skills.svg", skills());
-console.log("built about.svg, now.svg, playing.svg, skills.svg");
+console.log("built about.svg, now.svg, skills.svg");
