@@ -1,6 +1,6 @@
-// Refreshes the Open-source and Writing sections of README.md from live data.
+// Refreshes live data: assets/stats.svg, assets/langs.svg and the Open-source / Writing sections of README.md.
 // Env: GH_TOKEN, GH_LOGIN, BLOG_FEED
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 /* ------------------------------------------------------------ settings */
@@ -79,6 +79,44 @@ async function loadGitHub() {
   };
 }
 
+
+/* ------------------------------------------------------------ SVG cards */
+const SANS = "-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif";
+const LANG_COLORS = { TypeScript: "#3178C6", JavaScript: "#F1E05A", Python: "#3572A5", HTML: "#E34C26", CSS: "#7C3AED", Shell: "#16A34A", Dockerfile: "#0EA5E9", PHP: "#8892BF" };
+const PAL = ["#4F46E5", "#0EA5E9", "#7C3AED", "#16A34A", "#F59E0B", "#EC4899"];
+
+function statsSvg(d) {
+  const W = 580, H = 260;
+  const items = [["Commits (12 mo)", d.commits, "#4F46E5"], ["Merged PRs", d.prs, "#0EA5E9"], ["Code reviews", d.reviews, "#7C3AED"], ["Stars earned", d.stars, "#F59E0B"]];
+  const tiles = items.map(([l, v, c], i) => {
+    const x = 28 + (i % 2) * 262, y = 60 + Math.floor(i / 2) * 62;
+    return `<rect x="${x}" y="${y}" width="250" height="52" rx="12" fill="${c}" fill-opacity=".08"/><text x="${x + 16}" y="${y + 33}" font-family="${SANS}" font-size="26" font-weight="800" fill="#0F172A">${fmtNum(v)}</text><text x="${x + 234}" y="${y + 31}" text-anchor="end" font-family="${SANS}" font-size="13" fill="#475569">${l}</text>`;
+  }).join("");
+  const max = Math.max(1, ...d.weeks), bw = 9.6;
+  const bars = d.weeks.map((v, i) => { const h = Math.max(2, (v / max) * 52); return `<rect x="${28 + i * 10.6}" y="${236 - h}" width="${bw}" height="${h}" rx="2" fill="#6366F1" fill-opacity="${v ? 0.35 + 0.65 * (v / max) : 0.15}"/>`; }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="GitHub activity in the last 12 months: ${d.commits} commits, ${d.prs} merged pull requests, ${d.reviews} code reviews, ${d.stars} stars.">
+<rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="16" fill="#fff" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="28" y="38" font-family="${SANS}" font-size="12" font-weight="700" letter-spacing="2" fill="#6366F1">GITHUB ACTIVITY</text>
+<text x="${W - 28}" y="38" text-anchor="end" font-family="${SANS}" font-size="12" fill="#94A3B8">${fmtNum(d.total)} contributions, last 12 months</text>
+${tiles}${bars}</svg>`;
+}
+
+function langsSvg(d) {
+  const W = 580, H = 260, top = d.langs.slice(0, 6), sum = top.reduce((a, [, b]) => a + b, 0) || 1;
+  let x = 28; const seg = [], rows = [];
+  top.forEach(([n, b], i) => {
+    const c = LANG_COLORS[n] || PAL[i % PAL.length], w = (b / sum) * 524;
+    seg.push(`<rect x="${x.toFixed(1)}" y="56" width="${Math.max(w, 2).toFixed(1)}" height="14" fill="${c}"/>`); x += w;
+    const col = i % 2, row = Math.floor(i / 2), rx = 28 + col * 262, ry = 100 + row * 42;
+    rows.push(`<circle cx="${rx + 6}" cy="${ry + 6}" r="6" fill="${c}"/><text x="${rx + 22}" y="${ry + 11}" font-family="${SANS}" font-size="15" font-weight="600" fill="#0F172A">${esc(n)}</text><text x="${rx + 250}" y="${ry + 11}" text-anchor="end" font-family="${SANS}" font-size="14" fill="#475569">${((b / sum) * 100).toFixed(1)}%</text>`);
+  });
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Most used languages: ${top.map(([n, b]) => `${n} ${((b / sum) * 100).toFixed(0)}%`).join(", ")}.">
+<rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="16" fill="#fff" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="28" y="38" font-family="${SANS}" font-size="12" font-weight="700" letter-spacing="2" fill="#6366F1">MOST USED LANGUAGES</text>
+<clipPath id="c"><rect x="28" y="56" width="524" height="14" rx="7"/></clipPath><g clip-path="url(#c)">${seg.join("")}</g>
+${rows.join("")}</svg>`;
+}
+
 /* -------------------------------------------------------------- README */
 function replaceSection(md, name, content) {
   const re = new RegExp(`(<!-- ${name}:START -->)[\\s\\S]*?(<!-- ${name}:END -->)`);
@@ -131,6 +169,10 @@ async function main() {
     if (!TOKEN) throw new Error("GH_TOKEN is not set. Use --pending to write placeholder cards.");
     data = await loadGitHub();
   }
+
+  mkdirSync("assets", { recursive: true });
+  writeFileSync("assets/stats.svg", statsSvg(data));
+  writeFileSync("assets/langs.svg", langsSvg(data));
 
   let md = readFileSync("README.md", "utf8");
   md = replaceSection(md, "OSS", ossMarkdown(data.oss));

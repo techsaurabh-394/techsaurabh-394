@@ -30,6 +30,17 @@
   <a href="https://github.com/techsaurabh-394/haat-gateway"><img src="assets/project-haat.svg" width="49%" alt="haat-gateway: approval-gated gateway for AI agents to place ONDC orders."/></a>
 </p>
 
+## 📊 Right now and by the numbers
+
+<p align="center">
+  <img src="assets/now.svg" width="49%" alt="Right now: building MCP servers with approval-gated actions, learning agent evals, open to AI engineer roles, writing on mernstackdev.com."/>
+  <img src="assets/stats.svg" width="49%" alt="GitHub activity in the last 12 months: commits, merged pull requests, code reviews and stars."/>
+</p>
+<p align="center">
+  <img src="assets/langs.svg" width="49%" alt="Most used languages across public repositories."/>
+  <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake.svg" width="49%" alt="Snake eating my contribution graph"/>
+</p>
+
 ## 🧰 Tech stack
 
 <img src="assets/stack.svg" width="100%" alt="Tech stack. AI and agents: MCP, RAG, Evals, Claude, OpenAI, LangChain, Hugging Face, Ollama, PyTorch, TensorFlow. Languages: TypeScript, Python, JavaScript, Bash, HTML, CSS. Frontend: React, Next.js, Tailwind, Vercel. Backend and data: Node.js, Express, FastAPI, GraphQL, PostgreSQL, MongoDB, MySQL, Redis. Cloud and DevOps: Docker, Kubernetes, AWS, GCP, Azure, GitHub Actions, Nginx, Linux. Tools: Git, GitHub, VS Code, Postman, npm, WordPress."/>
@@ -55,6 +66,10 @@
 <!-- BLOG-POSTS:END -->
 
 <sub>[More on mernstackdev.com →](https://mernstackdev.com)</sub>
+
+<br/>
+
+<a href="mailto:saurabhpathak394@gmail.com"><img src="assets/contact.svg" width="100%" alt="Let's build something agentic. Email saurabhpathak394@gmail.com."/></a>
 
 <br/>
 
