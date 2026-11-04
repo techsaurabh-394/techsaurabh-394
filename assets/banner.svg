@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Saurabh Pathak, AI Engineer. Agents, MCP servers and RAG with evals. Animated terminal shows an agent planning, calling a tool and waiting for human approval.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8FAFF"/><stop offset="1" stop-color="#E0E7FF"/></linearGradient>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#0F172A"/><stop offset="1" stop-color="#4F46E5"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#A5B4FC" opacity=".55"/></pattern>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#4F46E5" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="20" fill="url(#dots)"/>
+<circle cx="130" cy="-10" r="170" fill="#818CF8" opacity=".14"/>
+<circle cx="1160" cy="380" r="200" fill="#38BDF8" opacity=".16"/>
+
+<rect x="56" y="48" width="196" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/>
+<circle cx="76" cy="63" r="5" fill="#22C55E"><animate attributeName="r" values="4;6.5;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.45;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="90" y="68" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#334155">agent online · building</text>
+
+<text x="56" y="152" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="56" font-weight="800" fill="url(#nm)" letter-spacing="-1.5">Saurabh Pathak</text>
+<text x="56" y="192" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#1E293B">AI Engineer · Full-Stack Developer</text>
+<text x="56" y="228" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#475569">I build agents that act on real systems:</text>
+<text x="56" y="252" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#475569">MCP servers, RAG measured with evals, human-gated tools.</text>
+<rect x="56" y="278" width="53" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="82.5" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">MCP</text><rect x="119" y="278" width="53" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="145.5" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">RAG</text><rect x="182" y="278" width="71" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="217.5" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">Evals</text><rect x="263" y="278" width="116" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="321.0" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">TypeScript</text><rect x="389" y="278" width="80" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="429.0" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">Python</text><rect x="479" y="278" width="89" height="30" rx="15" fill="#fff" stroke="#C7D2FE"/><text x="523.5" y="298" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#4338CA">FastAPI</text>
+
+<g filter="url(#sh)">
+<rect x="640" y="48" width="504" height="264" rx="16" fill="#fff" stroke="#E2E8F0"/>
+<path d="M640 64a16 16 0 0 1 16-16h472a16 16 0 0 1 16 16v28H640z" fill="#F1F5F9"/>
+<circle cx="664" cy="70" r="6" fill="#F87171"/><circle cx="684" cy="70" r="6" fill="#FBBF24"/><circle cx="704" cy="70" r="6" fill="#4ADE80"/>
+<text x="892" y="75" text-anchor="middle" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#64748B">agent-loop.log</text>
+</g>
+<text x="672" y="148" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#64748B">$</tspan> <tspan fill="#4F46E5">agent.run</tspan>("find invoice notes")<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.071;0.100;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="176" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#0EA5E9">plan</tspan>  → search_notes, summarize<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.157;0.186;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="204" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#0EA5E9">tool</tspan>  → mcp.search_notes(q="invoice")<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.257;0.286;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="232" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#0EA5E9">obs</tspan>   ← 3 notes found<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.357;0.386;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="260" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#F59E0B">gate</tspan>  ⚠ send_email needs approval<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.457;0.486;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="288" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#16A34A">human</tspan> ✓ approved<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.571;0.600;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+<text x="672" y="316" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0F172A" opacity="0"><tspan fill="#16A34A">done</tspan>  ✓ eval score 0.92<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.671;0.700;0.914;1" dur="14s" repeatCount="indefinite"/></text>
+
+<rect x="672" y="330" width="9" height="16" fill="#4F46E5"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>

@@ -1,41 +1,44 @@
 <div align="center">
 
-# Hi, I'm Saurabh Pathak
+<img src="assets/banner.svg" width="100%" alt="Saurabh Pathak, AI Engineer. Agents, MCP servers and RAG with evals. Animated terminal shows an agent planning, calling a tool and waiting for human approval."/>
 
-**AI Engineer & Full-Stack Developer**
+<br/><br/>
 
-I build agents that act on real systems: MCP servers, RAG pipelines measured with evals, and the web apps around them.
-
-<a href="https://saurabh.mernstackdev.com"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a> <a href="https://mernstackdev.com"><img src="https://img.shields.io/badge/Blog-F97316?style=flat-square&logo=rss&logoColor=white" alt="Blog"/></a> <a href="https://www.linkedin.com/in/tech-saurabh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://x.com/Saurabh23272258"><img src="https://img.shields.io/badge/X-111827?style=flat-square&logo=x&logoColor=white" alt="X"/></a> <a href="mailto:saurabhpathak394@gmail.com"><img src="https://img.shields.io/badge/Email-DC2626?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://saurabh.mernstackdev.com"><img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://mernstackdev.com"><img src="https://img.shields.io/badge/Blog-F97316?style=for-the-badge&logo=rss&logoColor=white" alt="Blog"/></a>
+<a href="https://www.linkedin.com/in/tech-saurabh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://x.com/Saurabh23272258"><img src="https://img.shields.io/badge/X-0F172A?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="mailto:saurabhpathak394@gmail.com"><img src="https://img.shields.io/badge/Email-DC2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
 <br/>
 
-## Featured projects
+## 🤖 How I build agents
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="assets/agent-loop.svg" width="100%" alt="Agent loop: you ask, the agent plans, calls MCP tools, a human approves risky actions, and eval scores feed back into the agent."/>
 
-### [mcp-notes-server](https://github.com/techsaurabh-394/mcp-notes-server)
-TypeScript MCP server that gives AI assistants a searchable notes store, exposed as 6 typed tools.
+<br/>
 
-<sub>`TypeScript` · `MCP`</sub>
+## 🚀 Featured projects
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://github.com/techsaurabh-394/mcp-notes-server"><img src="assets/project-mcp.svg" width="49%" alt="mcp-notes-server: TypeScript MCP server with 6 typed tools."/></a>
+  <a href="https://github.com/techsaurabh-394/ai-engineer-roadmap"><img src="assets/project-roadmap.svg" width="49%" alt="ai-engineer-roadmap: 100 topics on RAG, LLMs, agents and MCP."/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/techsaurabh-394/haat-gateway"><img src="assets/project-haat.svg" width="49%" alt="haat-gateway: approval-gated gateway for AI agents to place ONDC orders."/></a>
+</p>
 
-### [ai-engineer-roadmap](https://github.com/techsaurabh-394/ai-engineer-roadmap)
-100 topics on RAG, LLMs, agents and MCP, with runnable Python and interview questions.
+## 🧰 Tech stack
 
-<sub>`Python` · `RAG` · `Agents`</sub>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,python,js,react,nextjs,nodejs,fastapi,postgres,mongodb,redis,docker,aws,githubactions,linux&theme=light&perline=7" alt="TypeScript, Python, JavaScript, React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB, Redis, Docker, AWS, GitHub Actions, Linux"/>
+</p>
 
-</td>
-</tr>
-</table>
+<p align="center"><sub><b>AI:</b> MCP · RAG · Claude · OpenAI · LangChain · Ollama · PyTorch</sub></p>
 
-## Open-source contributions
+## 🤝 Open-source contributions
 
 <!-- OSS:START -->
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 本地库 DB_INIT_FAILED 不再误导用户更新，且插件绑定刷新失败不阻断就绪](https://github.com/makecindy/cindy/pull/7141) <sub>Nov 1, 2026</sub>
@@ -45,15 +48,7 @@ TypeScript MCP server that gives AI assistants a searchable notes store, exposed
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖](https://github.com/makecindy/cindy/pull/7634) <sub>Oct 29, 2026</sub>
 <!-- OSS:END -->
 
-## Tech stack
-
-<p>
-<img src="https://skillicons.dev/icons?i=ts,python,js,react,nextjs,nodejs,fastapi,postgres,mongodb,redis,docker,aws,githubactions,linux&theme=light&perline=7" alt="TypeScript, Python, JavaScript, React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB, Redis, Docker, AWS, GitHub Actions, Linux"/>
-</p>
-
-<sub>AI: MCP · RAG · Claude · OpenAI · LangChain · Ollama · PyTorch</sub>
-
-## Latest writing
+## ✍️ Latest writing
 
 <!-- BLOG-POSTS:START -->
 - [Bo2bot Messaging Built for AI Agents](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
