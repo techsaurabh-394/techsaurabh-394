@@ -32,11 +32,7 @@
 
 ## 🧰 Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,python,js,react,nextjs,nodejs,fastapi,postgres,mongodb,redis,docker,aws,githubactions,linux&theme=light&perline=7" alt="TypeScript, Python, JavaScript, React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB, Redis, Docker, AWS, GitHub Actions, Linux"/>
-</p>
-
-<p align="center"><sub><b>AI:</b> MCP · RAG · Claude · OpenAI · LangChain · Ollama · PyTorch</sub></p>
+<img src="assets/stack.svg" width="100%" alt="Tech stack. AI and agents: MCP, RAG, Evals, Claude, OpenAI, LangChain, Hugging Face, Ollama, PyTorch, TensorFlow. Languages: TypeScript, Python, JavaScript, Bash, HTML, CSS. Frontend: React, Next.js, Tailwind, Vercel. Backend and data: Node.js, Express, FastAPI, GraphQL, PostgreSQL, MongoDB, MySQL, Redis. Cloud and DevOps: Docker, Kubernetes, AWS, GCP, Azure, GitHub Actions, Nginx, Linux. Tools: Git, GitHub, VS Code, Postman, npm, WordPress."/>
 
 ## 🤝 Open-source contributions
 
