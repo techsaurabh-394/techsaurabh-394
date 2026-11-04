@@ -1,13 +1,39 @@
-# Saurabh Pathak
+<div align="center">
 
-AI engineer and full-stack developer. I build agents that act on real systems: MCP servers, RAG pipelines measured with evals, and the web apps around them.
+# Hi, I'm Saurabh Pathak
 
-[Portfolio](https://saurabh.mernstackdev.com) · [Blog](https://mernstackdev.com) · [LinkedIn](https://www.linkedin.com/in/tech-saurabh/) · [X](https://x.com/Saurabh23272258) · [Medium](https://medium.com/@saurabhpathak394) · [Email](mailto:saurabhpathak394@gmail.com)
+**AI Engineer & Full-Stack Developer**
 
-## Projects
+I build agents that act on real systems: MCP servers, RAG pipelines measured with evals, and the web apps around them.
 
-- [mcp-notes-server](https://github.com/techsaurabh-394/mcp-notes-server): TypeScript MCP server that gives AI assistants a searchable notes store, exposed as 6 typed tools.
-- [ai-engineer-roadmap](https://github.com/techsaurabh-394/ai-engineer-roadmap): 100 topics on RAG, LLMs, agents and MCP, with runnable Python and interview questions.
+<a href="https://saurabh.mernstackdev.com"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a> <a href="https://mernstackdev.com"><img src="https://img.shields.io/badge/Blog-F97316?style=flat-square&logo=rss&logoColor=white" alt="Blog"/></a> <a href="https://www.linkedin.com/in/tech-saurabh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://x.com/Saurabh23272258"><img src="https://img.shields.io/badge/X-111827?style=flat-square&logo=x&logoColor=white" alt="X"/></a> <a href="mailto:saurabhpathak394@gmail.com"><img src="https://img.shields.io/badge/Email-DC2626?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+
+</div>
+
+<br/>
+
+## Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [mcp-notes-server](https://github.com/techsaurabh-394/mcp-notes-server)
+TypeScript MCP server that gives AI assistants a searchable notes store, exposed as 6 typed tools.
+
+<sub>`TypeScript` · `MCP`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [ai-engineer-roadmap](https://github.com/techsaurabh-394/ai-engineer-roadmap)
+100 topics on RAG, LLMs, agents and MCP, with runnable Python and interview questions.
+
+<sub>`Python` · `RAG` · `Agents`</sub>
+
+</td>
+</tr>
+</table>
 
 ## Open-source contributions
 
@@ -19,14 +45,15 @@ AI engineer and full-stack developer. I build agents that act on real systems: M
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖](https://github.com/makecindy/cindy/pull/7634) <sub>Oct 29, 2026</sub>
 <!-- OSS:END -->
 
-## Stack
+## Tech stack
 
-**AI:** MCP, RAG, Claude, OpenAI, LangChain, Ollama, PyTorch
-**Languages:** TypeScript, Python, JavaScript, Bash
-**Web:** React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB, Redis
-**Infra:** Docker, GitHub Actions, AWS, Linux
+<p>
+<img src="https://skillicons.dev/icons?i=ts,python,js,react,nextjs,nodejs,fastapi,postgres,mongodb,redis,docker,aws,githubactions,linux&theme=light&perline=7" alt="TypeScript, Python, JavaScript, React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB, Redis, Docker, AWS, GitHub Actions, Linux"/>
+</p>
 
-## Writing
+<sub>AI: MCP · RAG · Claude · OpenAI · LangChain · Ollama · PyTorch</sub>
+
+## Latest writing
 
 <!-- BLOG-POSTS:START -->
 - [Bo2bot Messaging Built for AI Agents](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
@@ -36,4 +63,10 @@ AI engineer and full-stack developer. I build agents that act on real systems: M
 - [Express Applications to Version 5](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
-[More on mernstackdev.com](https://mernstackdev.com)
+<sub>[More on mernstackdev.com →](https://mernstackdev.com)</sub>
+
+<br/>
+
+<div align="center">
+<sub>If my repos or the roadmap helped you, a ⭐ helps others find them.</sub>
+</div>
