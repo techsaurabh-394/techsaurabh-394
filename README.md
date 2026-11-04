@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Saurabh Pathak, AI Engineer. Agents, MCP servers and RAG with evals. An animated cartoon robot agent waves, blinks and announces plan, human approval and eval score."/>
+<img src="assets/banner.svg" width="100%" alt="Saurabh Pathak, AI Engineer. Agents, MCP servers and RAG with evals. A large friendly greeting: Hi, welcome to my GitHub."/>
 
 <br/><br/>
 
