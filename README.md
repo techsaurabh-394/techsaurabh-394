@@ -40,6 +40,9 @@
   <img src="assets/langs.svg" width="49%" alt="Most used languages across public repositories."/>
   <img src="https://raw.githubusercontent.com/techsaurabh-394/techsaurabh-394/output/github-snake.svg" width="49%" alt="Snake eating my contribution graph"/>
 </p>
+<p align="center">
+  <img src="assets/traffic.svg" width="49%" alt="Repository traffic: total views, unique visits, views in the last 7 days and the most viewed repositories."/>
+</p>
 
 ## 🧰 Tech stack
 

@@ -34,11 +34,18 @@ jobs:
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
 
+      - name: Refresh repo traffic card
+        run: node scripts/build-traffic.mjs
+        env:
+          # Traffic API needs push access: add a classic PAT (repo) as PROFILE_TOKEN. Without it the card keeps saved history.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets README.md
+          git add assets README.md data
           if git diff --cached --quiet; then
             echo "Nothing changed"
           else
