@@ -24,7 +24,7 @@
 
 <p align="center">
   <a href="https://github.com/techsaurabh-394/mcp-notes-server"><img src="assets/project-mcp.svg" width="49%" alt="mcp-notes-server: TypeScript MCP server with 6 typed tools."/></a>
-  <a href="https://github.com/techsaurabh-394/ai-engineer-roadmap"><img src="assets/project-roadmap.svg" width="49%" alt="ai-engineer-roadmap: 100 topics on RAG, LLMs, agents and MCP."/></a>
+  <a href="https://github.com/techsaurabh-394/ai-engineer-roadmap"><img src="assets/project-roadmap.svg" width="49%" alt="ai-engineer-roadmap: 113 topics on RAG, LLMs, agents and MCP."/></a>
 </p>
 <p align="center">
   <a href="https://github.com/techsaurabh-394/haat-gateway"><img src="assets/project-haat.svg" width="49%" alt="haat-gateway: approval-gated gateway for AI agents to place ONDC orders."/></a>
