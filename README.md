@@ -51,11 +51,11 @@
 ## 🤝 Open-source contributions
 
 <!-- OSS:START -->
+- [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken): [fix(server): reject empty completions prompt and keep error code](https://github.com/FlashML-org/FreeToken/pull/850) <sub>Nov 7, 2026</sub>
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 本地库 DB_INIT_FAILED 不再误导用户更新，且插件绑定刷新失败不阻断就绪](https://github.com/makecindy/cindy/pull/7141) <sub>Nov 1, 2026</sub>
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 例行/渠道专线会话可通过 sessions.setStatus 归档 (#8299)](https://github.com/makecindy/cindy/pull/8306) <sub>Nov 1, 2026</sub>
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(cross-agent-convert): 修正 Codex hooks 双向转换的顶层结构并避免重复提示](https://github.com/makecindy/cindy/pull/7192) <sub>Oct 27, 2026</sub>
 - [makecindy/cindy](https://github.com/makecindy/cindy): [fix(forge): 拆分 Agent 手册 §4.11.3 为独立章节，解除 4.11 章超 32 KiB 上限](https://github.com/makecindy/cindy/pull/8014) <sub>Oct 30, 2026</sub>
-- [makecindy/cindy](https://github.com/makecindy/cindy): [fix(desktop): 用户显式配置的 ENABLE_TOOL_SEARCH 不再被 Cindy 默认值覆盖](https://github.com/makecindy/cindy/pull/7634) <sub>Oct 29, 2026</sub>
 <!-- OSS:END -->
 
 ## ✍️ Latest writing
