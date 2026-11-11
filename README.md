@@ -61,11 +61,11 @@
 ## ✍️ Latest writing
 
 <!-- BLOG-POSTS:START -->
-- [Bo2bot Messaging Built for AI Agents](https://mernstackdev.com/bo2bot-messaging-built-for-ai-agents/) <sub>Aug 11, 2026</sub>
-- [MySQL JSON Functions for Dynamic Data](https://mernstackdev.com/mysql-json-functions-for-dynamic-data/) <sub>Jul 16, 2026</sub>
-- [Using Streams in Node JS](https://mernstackdev.com/using-streams-in-node-js/) <sub>Jul 16, 2026</sub>
-- [Revolutionizing React Server Components](https://mernstackdev.com/revolutionizing-react-server-components/) <sub>Jul 16, 2026</sub>
-- [Express Applications to Version 5](https://mernstackdev.com/express-applications-to-version-5/) <sub>Jul 16, 2026</sub>
+- [Zod vs Joi vs Yup: Which Validation Library Should You Use?](https://mernstackdev.com/zod-vs-joi-vs-yup/) <sub>Nov 11, 2026</sub>
+- [Fix MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017](https://mernstackdev.com/mongoose-server-selection-error-econnrefused/) <sub>Nov 11, 2026</sub>
+- [Mongoose Schema Types Explained With Examples](https://mernstackdev.com/mongoose-schema-types/) <sub>Nov 11, 2026</sub>
+- [Fix MongoDB E11000 Duplicate Key Error (Mongoose Guide)](https://mernstackdev.com/mongodb-e11000-duplicate-key-error/) <sub>Nov 11, 2026</sub>
+- [MongoDB Aggregation for SQL Developers: GROUP BY, JOIN and More](https://mernstackdev.com/mongodb-aggregation-for-sql-developers/) <sub>Nov 11, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 <sub>[More on mernstackdev.com →](https://mernstackdev.com)</sub>
