@@ -61,11 +61,11 @@
 ## ✍️ Latest writing
 
 <!-- BLOG-POSTS:START -->
+- [Fix “Error: listen EADDRINUSE: address already in use” in Node.js](https://mernstackdev.com/eaddrinuse-address-already-in-use/) <sub>Nov 12, 2026</sub>
+- [Fix “Cannot use import statement outside a module” in Node.js, Jest and the Browser](https://mernstackdev.com/cannot-use-import-statement-outside-a-module/) <sub>Nov 12, 2026</sub>
 - [Zod vs Joi vs Yup: Which Validation Library Should You Use?](https://mernstackdev.com/zod-vs-joi-vs-yup/) <sub>Nov 11, 2026</sub>
 - [Fix MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017](https://mernstackdev.com/mongoose-server-selection-error-econnrefused/) <sub>Nov 11, 2026</sub>
 - [Mongoose Schema Types Explained With Examples](https://mernstackdev.com/mongoose-schema-types/) <sub>Nov 11, 2026</sub>
-- [Fix MongoDB E11000 Duplicate Key Error (Mongoose Guide)](https://mernstackdev.com/mongodb-e11000-duplicate-key-error/) <sub>Nov 11, 2026</sub>
-- [MongoDB Aggregation for SQL Developers: GROUP BY, JOIN and More](https://mernstackdev.com/mongodb-aggregation-for-sql-developers/) <sub>Nov 11, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 <sub>[More on mernstackdev.com →](https://mernstackdev.com)</sub>
