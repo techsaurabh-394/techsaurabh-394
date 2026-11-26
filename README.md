@@ -23,11 +23,15 @@
 ## 🚀 Featured projects
 
 <p align="center">
-  <a href="https://github.com/techsaurabh-394/mcp-notes-server"><img src="assets/project-mcp.svg" width="49%" alt="mcp-notes-server: TypeScript MCP server with 6 typed tools."/></a>
-  <a href="https://github.com/techsaurabh-394/ai-engineer-roadmap"><img src="assets/project-roadmap.svg" width="49%" alt="ai-engineer-roadmap: 113 topics on RAG, LLMs, agents and MCP."/></a>
+  <a href="https://github.com/techsaurabh-394/ai-engineer-roadmap"><img src="assets/project-roadmap.svg" width="49%" alt="ai-engineer-roadmap: 144 topics across 12 phases on RAG, LLMs, agents and MCP."/></a>
+  <a href="https://github.com/techsaurabh-394/mcp-safe-actions"><img src="assets/project-safe-actions.svg" width="49%" alt="mcp-safe-actions: human approval for destructive MCP tools."/></a>
 </p>
 <p align="center">
   <a href="https://github.com/techsaurabh-394/haat-gateway"><img src="assets/project-haat.svg" width="49%" alt="haat-gateway: approval-gated gateway for AI agents to place ONDC orders."/></a>
+  <a href="https://github.com/techsaurabh-394/mcp-notes-server"><img src="assets/project-mcp.svg" width="49%" alt="mcp-notes-server: TypeScript MCP server with 6 typed tools."/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/techsaurabh-394/rag-docs-chat"><img src="assets/project-rag.svg" width="49%" alt="rag-docs-chat: upload PDFs and ask questions, answers cite sources."/></a>
 </p>
 
 ## 📊 Right now and by the numbers
