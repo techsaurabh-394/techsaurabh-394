@@ -65,11 +65,11 @@
 ## ✍️ Latest writing
 
 <!-- BLOG-POSTS:START -->
+- [Fix “Too many re-renders. React limits the number of renders to prevent an infinite loop”](https://mernstackdev.com/too-many-re-renders-react/) <sub>Nov 26, 2026</sub>
 - [Fix “MongooseError: Operation buffering timed out after 10000ms”](https://mernstackdev.com/mongoose-buffering-timed-out/) <sub>Nov 16, 2026</sub>
 - [Fix JWT Errors: jwt malformed, jwt expired, invalid signature and invalid token](https://mernstackdev.com/jwt-malformed-expired-invalid-signature/) <sub>Nov 16, 2026</sub>
 - [Fix “Error: Cannot find module” in Node.js (MODULE_NOT_FOUND)](https://mernstackdev.com/cannot-find-module-nodejs/) <sub>Nov 16, 2026</sub>
 - [Fix “Error: listen EADDRINUSE: address already in use” in Node.js](https://mernstackdev.com/eaddrinuse-address-already-in-use/) <sub>Nov 12, 2026</sub>
-- [Fix “Cannot use import statement outside a module” in Node.js, Jest and the Browser](https://mernstackdev.com/cannot-use-import-statement-outside-a-module/) <sub>Nov 12, 2026</sub>
 <!-- BLOG-POSTS:END -->
 
 <sub>[More on mernstackdev.com →](https://mernstackdev.com)</sub>
